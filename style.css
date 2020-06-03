@@ -1,0 +1,30 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, footer {
+	height: 100vh;
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 180px;
+	color: #FFFFFF;
+}
+
+section {
+	display: flex;
+	justify-self: center;
+	align-self: center;
+	height: 100vh;
+}
+.animation {
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
