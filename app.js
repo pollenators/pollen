@@ -1,12 +1,17 @@
-const http = require('http');
+const http = require('http')
+const fs = require('fs')
+
 const port = process.env.PORT || 3000
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end('<h1>Pollen</h1>');
-});
-
-server.listen(port,() => {
-  console.log(`Server running at port `+port);
-});
+http.createServer((req, res) => {
+  const path = __dirname + (req.url === '/' ? '/index.html' : req.url)
+  fs.readFile(path, (err, data) => {
+    if (err) {
+      res.writeHead(404)
+      res.end(JSON.stringify(err))
+      return
+    }
+    res.writeHead(200)
+    res.end(data)
+  })
+}).listen(port)
