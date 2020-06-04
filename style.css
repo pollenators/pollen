@@ -22,6 +22,14 @@ section {
 	align-self: center;
 	height: 100vh;
 }
+.intro, .main, .story {
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 75%;
+}
 .animation {
 	background-color: #1E1E1E;
 	display: flex;
