@@ -30,6 +30,10 @@ section {
 	height: 100%;
 	width: 75%;
 }
+p {
+	display: flex;
+	justify-content: space-evenly;
+}
 .animation {
 	background-color: #1E1E1E;
 	display: flex;
