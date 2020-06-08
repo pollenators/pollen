@@ -3,17 +3,11 @@
   "version": "1.0.0",
   "description": "pollen heroku app",
   "main": "app.js",
+  "engines": {
+    "node": "11.x"
+  },
   "scripts": {
-  "start": "node app.js"
-},
-  "repository": {
-  "type": "git",
-  "url": ""
-},
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+ }
 }
