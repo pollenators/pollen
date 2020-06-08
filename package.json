@@ -1,20 +1,19 @@
 {
-  "name": "pollen",
-  "version": "1.0.0",
-  "description": "pollen heroku app",
-  "main": "app.js",
-  "scripts": {
-  "start": "node app.js"
-},
-  "repository": {
-  "type": "git",
-  "url": ""
-},
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-  "@terwanerik/scrolltrigger": "^1.0.4",
-  "animate.css": "^4.1.0",
-  "moveto": "^1.8.2"
-  }
+	"name": "pollen",
+	"version": "1.0.0",
+	"description": "pollen heroku app",
+	"main": "app.js",
+	"scripts": {
+	"start": "node app.js"
+	},
+	"repository": {
+	"type": "git",
+	"url": ""
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+	"url": ""
+	},
+	"homepage": ""
 }
