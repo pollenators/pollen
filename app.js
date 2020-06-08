@@ -4,17 +4,16 @@ const fs = require('fs')
 const port = process.env.PORT || 3000
 
 // Declare variables for express server
-const express = require('express')
-const bodyParser = require('body-parser')
-const cors = require('cors')
-const { pool } = require('./config')
-const app = express()
+//const express = require('express')
+//const bodyParser = require('body-parser')
+//const cors = require('cors')
+//const { pool } = require('./config')
+//const app = express()
 
 // Create app
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(cors())
-
+//app.use(bodyParser.json())
+//app.use(bodyParser.urlencoded({ extended: true }))
+//app.use(cors())
 
 // Create server
 http.createServer((req, res) => {
@@ -31,36 +30,36 @@ http.createServer((req, res) => {
 }).listen(port)
 
 // Get story from database
-const getStory = (request, response) => {
-  pool.query('SELECT * FROM story', (error, results) => {
-    if (error) {
-      throw error
-    }
-    response.status(200).json(results.rows)
-  })
-}
+//const getStory = (request, response) => {
+//  pool.query('SELECT * FROM story', (error, results) => {
+//    if (error) {
+//      throw error
+//    }
+//    response.status(200).json(results.rows)
+//  })
+//}
 
 // Post story to database
-const addStory = (request, response) => {
-  const { author, title } = request.body
+//const addStory = (request, response) => {
+//  const { author, title } = request.body
 
-  pool.query('INSERT INTO story (author, title) VALUES ($1, $2)', [author, title], error => {
-    if (error) {
-      throw error
-    }
-    response.status(201).json({ status: 'success', message: 'Story added.' })
-  })
-}
+//  pool.query('INSERT INTO story (author, title) VALUES ($1, $2)', [author, title], error => {
+//    if (error) {
+//      throw error
+//    }
+//    response.status(201).json({ status: 'success', message: 'Story added.' })
+//  })
+//}
 
 // Endpoints
-app
-  .route('/story')
+//app
+//  .route('/story')
   // GET endpoint
-  .get(getStory)
+//  .get(getStory)
   // POST endpoint
-  .post(addStory)
+//  .post(addStory)
 
 // Start server
-app.listen(process.env.PORT || 5000, () => {
-  console.log(`Server listening`)
-})
+//app.listen(process.env.PORT || 5000, () => {
+//  console.log(`Server listening`)
+//})
