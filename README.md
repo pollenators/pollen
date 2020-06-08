@@ -1,8 +1,6 @@
 <p align="center">
-	<img width="300" height="600" src="https://imgur.com/abyKR3x">
+	<img width="300" height="600" src="https://i.imgur.com/tb8xMBs.png">
 </p>
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="abyKR3x"><a href="//imgur.com/abyKR3x"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 # Pollen
 ## "Learning about the intersection of botany and forensics"
@@ -18,8 +16,7 @@ The following are the three types of user we want to target in user story format
 
 # Development
 The following are articles detailing our journey in creating Pollen.  
-* 
-* 
+
 
 ## Technology
 
@@ -35,5 +32,3 @@ Flavio Vilchezespinoza, flavio.vilchezespinoza@holbertonschool.com
 Jennifer Tang, jennifer.tang@holbertonschool.com  
 
 ### Known Bugs
-* 
-* 
