@@ -3,14 +3,20 @@
 	padding: 0px;
 }
 
-header, footer {
+header {
 	height: 100vh;
 	background-color: #1E1E1E;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
+footer {
+	height: 10vh;
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 h1 {
 	font-size: 180px;
 	color: #FFFFFF;
@@ -39,4 +45,45 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.social-buttons a{
+	display: inline-flex;
+	text-decoration: none;
+	font-size: 18px;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 3;
+	margin: 0 8px;
+  }
+  
+.social-buttons a::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: linear-gradient(45deg,#22a6b3,#30336b);
+	border-radius: 50%;
+	z-index: 3;
+	transition: 0.3s ease-in;
+}
+  
+.social-buttons a:hover::before{
+	transform: scale(0);
+	z-index: 3;
+}
+  
+.social-buttons a i{
+	z-index: 3;
+	transition: 0.3s ease-in;
+}
+  
+.social-buttons a:hover i{
+	z-index: 3;
+	background: linear-gradient(45deg,#22a6b3,#30336b);
+	transform: scale(2.2);
 }
