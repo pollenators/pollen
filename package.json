@@ -14,10 +14,11 @@
    "license": "ISC",
    "bugs": {
    "url": ""
- }//,
+   }
+}//,
   // "dependencies": {
   // "@terwanerik/scrolltrigger": "^1.0.4",
   // "animate.css": "^4.1.0",
   // "moveto": "^1.8.2"
   //}
-}
+//}
