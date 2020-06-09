@@ -48,7 +48,7 @@ p {
 	align-items: center;
 }
 
-.social-buttons a{
+.footer-buttons a{
 	display: inline-flex;
 	text-decoration: none;
 	font-size: 18px;
@@ -62,29 +62,29 @@ p {
 	margin: 0 8px;
   }
   
-.social-buttons a::before{
+.footer-buttons a::before{
 	content: "";
 	position: absolute;
 	width: 60px;
 	height: 60px;
-	background: linear-gradient(45deg,#22a6b3,#30336b);
+	background: linear-gradient(45deg,#22a6b3,#74A867);
 	border-radius: 50%;
 	z-index: 3;
 	transition: 0.3s ease-in;
 }
   
-.social-buttons a:hover::before{
+.footer-buttons a:hover::before{
 	transform: scale(0);
 	z-index: 3;
 }
   
-.social-buttons a i{
+.footer-buttons a i{
 	z-index: 3;
 	transition: 0.3s ease-in;
 }
   
-.social-buttons a:hover i{
+.footer-buttons a:hover i{
 	z-index: 3;
-	background: linear-gradient(45deg,#22a6b3,#30336b);
+	background: linear-gradient(45deg,#22a6b3,#74A867);
 	transform: scale(2.2);
 }
