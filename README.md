@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="300" height="600" src="https://i.imgur.com/tb8xMBs.png">
+	<img width="500" height="500" src="https://i.imgur.com/tb8xMBs.png">
 </p>
 
 # Pollen
