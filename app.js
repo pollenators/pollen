@@ -1,9 +1,10 @@
-const express = require('express');
-const path = require('path');
-const app = express();
+// create ejs
+var engine = require('ejs-locals');
+app.engine('ejs', engine);
+app.set('files', './files');
+app.set('view engine', 'ejs');
 
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + 'index.html'));
+// modify router use file name
+app.get('/', function(req, res){
+  res.render('index');
 });
-
-app.listen(process.env.PORT || 3000);
