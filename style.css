@@ -40,24 +40,55 @@ section {
 	height: 100%;
 	width: 75%;
 }
-.svgs {
+.arum {
 	display: flexbox;
-	justify-content: center;
-	align-self: center;
-	transition: 0.3s ease-in;
+	background-image: url('./svg/arum.svg');
 	height: 100px;
 	width: 100px;
 }
-.svgs ::before {
-	border-radius: 50%;
-	z-index: 3;
-	transition: 0.3s ease-in;
+.aloe {
+	display: flexbox;
+	background-image: url('./svg/aloe.svg');
+	height: 100px;
+	width: 100px;
 }
-.svgs hover::before{
-	transform: scale(0);
-	z-index: 3;
+.banana {
+	display: flexbox;
+	background-image: url('./svg/banana_leaf.svg');
+	height: 100px;
+	width: 100px;
 }
-.svgs h2{
+.caladium {
+	display: flexbox;
+	background-image: url('./svg/caladium.svg');
+	height: 100px;
+	width: 100px;
+}
+.bop {
+	display: flexbox;
+	background-image: url('./svg/birds_of_paradise.svg');
+	height: 100px;
+	width: 100px;
+}
+.bloodlilly {
+	display: flexbox;
+	background-image: url('./svg/bloodlilly.svg');
+	height: 100px;
+	width: 100px;
+}
+.frangipani {
+	display: flexbox;
+	background-image: url('./svg/frangipani.svg');
+	height: 100px;
+	width: 100px;
+}
+.jasmine {
+	display: flexbox;
+	background-image: url('./svg/jasmine.svg');
+	height: 100px;
+	width: 100px;
+}
+.poison {
 	display: flexbox;
 	justify-content: center;
 	align-self: center;
