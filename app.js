@@ -1,10 +1,11 @@
-// create ejs
-var engine = require('ejs-locals');
-app.engine('ejs', engine);
-app.set('files', './files');
-app.set('view engine', 'ejs');
+const express = require('express');
+const app = express();
+const path = require('path');
+const router = express.Router();
 
-// modify router use file name
-app.get('/', function(req, res){
-  res.render('index');
+router.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname + '/index.html'));
 });
+
+app.use('/', router);
+app.listen(process.env.PORT || 3000);

@@ -1,28 +1,53 @@
 {
-	"name": "pollen",
-	"version": "1.0.0",
-	"description": "pollen heroku app",
-	"main": "app.js",
-	"scripts": {
-		"start": "node app.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/pollenators/pollen"
-	},
-	"license": "ISC",
-	"engines": {
-		"node": "10.x"
-	},
-	"dependencies": {
-		"@terwanerik/scrolltrigger": "^1.0.4",
-		"animate.css": "^4.1.0",
-		"body-parser": "^1.19.0",
-		"express": "^4.17.1",
-		"moveto": "^1.8.2",
-		"pg": "^8.2.1",
-		"pg-hstore": "^2.3.3",
-		"sequelize": "^5.21.12",
-		"ejs-locals": "^1.0.2"
-	}
+  "name": "pollen",
+  "version": "1.0.0",
+  "description": "pollen heroku app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollenators/pollen.git"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "@terwanerik/scrolltrigger": "^1.0.4",
+    "animate.css": "^4.1.0",
+    "body-parser": "^1.19.0",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "moveto": "^1.8.2",
+    "path": "^0.12.7",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.12"
+  },
+  "bugs": {
+    "url": "https://github.com/pollenators/pollen/issues"
+  },
+  "homepage": "https://github.com/pollenators/pollen#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/register": "^7.10.1",
+    "@babel/runtime": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.21.2"
+  },
+  "keywords": [
+    "Node.js",
+    "Heroku",
+    "Deployment"
+  ],
+  "author": ""
 }
