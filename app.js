@@ -1,16 +1,15 @@
-const http = require('http')
-const fs = require('fs')
+const express = require('express')
+const app = express()
 const port = process.env.PORT || 3000
 
-http.createServer((req, res) => {
-  const path = __dirname + (req.url === '/' ? '/index.html' : req.url)
-  fs.readFile(path, (error, data) => {
-    if (error) {
-      res.writeHead(404)
-      res.end(JSON.stringify(error))
-      return
-    }
-    res.writeHead(200)
-    res.end(data)
-  })
-}).listen(port)
+var bodyParser = require('body-parser');
+app.use(bodyParser.json())
+
+
+
+
+app.get('/', function (req, res) {
+  res.sendFile("index.html", { root: __dirname })
+})
+
+app.listen(port)
