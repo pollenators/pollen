@@ -33,65 +33,75 @@ section {
 }
 .intro, .main, .story {
 	background-color: #FFFFFF;
-	display: flexbox;
-	justify-content: right;
-	align-items: center;
-	padding-top: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 5vh;
 	height: 100%;
 	width: 75%;
 }
+.svgs {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.text {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
 .arum {
 	display: flexbox;
-	background-image: url('./svg/arum.svg');
+	background-image: url('svg/arum.svg');
 	height: 100px;
 	width: 100px;
 }
 .aloe {
 	display: flexbox;
-	background-image: url('./svg/aloe.svg');
+	background-image: url('svg/aloe.svg');
 	height: 100px;
 	width: 100px;
 }
 .banana {
 	display: flexbox;
-	background-image: url('./svg/banana_leaf.svg');
+	background-image: url('svg/banana_leaf.svg');
 	height: 100px;
 	width: 100px;
 }
 .caladium {
 	display: flexbox;
-	background-image: url('./svg/caladium.svg');
+	background-image: url('svg/caladium.svg');
 	height: 100px;
 	width: 100px;
 }
 .bop {
 	display: flexbox;
-	background-image: url('./svg/birds_of_paradise.svg');
+	background-image: url('svg/birds_of_paradise.svg');
 	height: 100px;
 	width: 100px;
 }
 .bloodlilly {
 	display: flexbox;
-	background-image: url('./svg/bloodlilly.svg');
+	background-image: url('svg/bloodlilly.svg');
 	height: 100px;
 	width: 100px;
 }
 .frangipani {
 	display: flexbox;
-	background-image: url('./svg/frangipani.svg');
+	background-image: url('svg/frangipani.svg');
 	height: 100px;
 	width: 100px;
 }
 .jasmine {
 	display: flexbox;
-	background-image: url('./svg/jasmine.svg');
+	background-image: url('svg/jasmine.svg');
 	height: 100px;
 	width: 100px;
 }
 .poison {
 	display: flexbox;
-	justify-content: center;
-	align-self: center;
+	flex-wrap: nowrap;
 	height: 100px;
 	width: auto;
 }
