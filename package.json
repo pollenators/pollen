@@ -2,9 +2,9 @@
   "name": "pollen",
   "version": "1.0.0",
   "description": "pollen heroku app",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
