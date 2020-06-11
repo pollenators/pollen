@@ -31,24 +31,5 @@
   "bugs": {
     "url": "https://github.com/pollenators/pollen/issues"
   },
-  "homepage": "https://github.com/pollenators/pollen#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
-    "@babel/node": "^7.10.1",
-    "@babel/plugin-transform-runtime": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
-    "@babel/register": "^7.10.1",
-    "@babel/runtime": "^7.10.2",
-    "babel-loader": "^8.1.0",
-    "eslint": "^7.2.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.21.2"
-  },
-  "keywords": [
-    "Node.js",
-    "Heroku",
-    "Deployment"
-  ],
   "author": ""
 }
