@@ -1,0 +1,156 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	height: 100vh;
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer {
+	height: 10vh;
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5vh;
+	overflow: hidden;
+}
+h1 {
+	font-size: 100px;
+	color: #FFFFFF;
+}
+
+section {
+	display: flex;
+	justify-self: flex-start;
+	align-self: center;
+	height: 100vh;
+}
+.intro, .main, .story {
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 5vh;
+	height: 100%;
+	width: 75%;
+}
+.svgs {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.text {
+	display: flex;
+	justify-content: flex-start;
+	flex-grow: 1;
+	align-items: flex-start;
+}
+.arum {
+	display: flexbox;
+	background-image: url('svg/arum.svg');
+	height: 100px;
+	width: 100px;
+}
+.aloe {
+	display: flexbox;
+	background-image: url('svg/aloe.svg');
+	height: 100px;
+	width: 100px;
+}
+.banana {
+	display: flexbox;
+	background-image: url('svg/banana_leaf.svg');
+	height: 100px;
+	width: 100px;
+}
+.caladium {
+	display: flexbox;
+	background-image: url('svg/caladium.svg');
+	height: 100px;
+	width: 100px;
+}
+.bop {
+	display: flexbox;
+	background-image: url('svg/birds_of_paradise.svg');
+	height: 100px;
+	width: 100px;
+}
+.bloodlilly {
+	display: flexbox;
+	background-image: url('svg/bloodlilly.svg');
+	height: 100px;
+	width: 100px;
+}
+.frangipani {
+	display: flexbox;
+	background-image: url('svg/frangipani.svg');
+	height: 100px;
+	width: 100px;
+}
+.jasmine {
+	display: flexbox;
+	background-image: url('svg/jasmine.svg');
+	height: 100px;
+	width: 100px;
+}
+.poison {
+	display: flexbox;
+	flex-wrap: nowrap;
+	height: 100px;
+	width: auto;
+}
+
+.animation {
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-buttons a{
+	display: inline-flex;
+	text-decoration: none;
+	font-size: 18px;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 3;
+	margin: 0 8px;
+  }
+  
+.footer-buttons a::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: linear-gradient(45deg,#22a6b3,#74A867);
+	border-radius: 50%;
+	z-index: 3;
+	transition: 0.3s ease-in;
+}
+  
+.footer-buttons a:hover::before{
+	transform: scale(0);
+	z-index: 3;
+}
+  
+.footer-buttons a i{
+	z-index: 3;
+	transition: 0.3s ease-in;
+}
+  
+.footer-buttons a:hover i{
+	z-index: 3;
+	background: linear-gradient(45deg,#22a6b3,#74A867);
+	transform: scale(2.2);
+}
