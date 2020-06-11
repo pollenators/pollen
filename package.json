@@ -21,7 +21,6 @@
     "ejs-locals": "^1.0.2",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
-    "jade": "*",
     "underscore": "^1.7.0",
     "moveto": "^1.8.2",
     "path": "^0.12.7",
