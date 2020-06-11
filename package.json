@@ -1,35 +1,24 @@
 {
   "name": "pollen",
   "version": "1.0.0",
-  "description": "pollen heroku app",
+  "description": "pollen deployed with heroku",
   "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pollenators/pollen.git"
   },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "10.x"
-  },
-  "dependencies": {
-    "@terwanerik/scrolltrigger": "^1.0.4",
-    "animate.css": "^4.1.0",
-    "body-parser": "^1.19.0",
-    "ejs-locals": "^1.0.2",
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "underscore": "^1.7.0",
-    "moveto": "^1.8.2",
-    "path": "^0.12.7",
-    "pg": "^8.2.1",
-    "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.12"
-  },
   "bugs": {
     "url": "https://github.com/pollenators/pollen/issues"
   },
-  "author": ""
+  "homepage": "https://github.com/pollenators/pollen#readme"
 }
