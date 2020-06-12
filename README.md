@@ -19,9 +19,9 @@ The following are the three types of user we want to target in user story format
 ![PollenWebStack](https://i.imgur.com/tzmjMk6.png)
 
 ## Tutorial
-Visit https://pollenators.herokuapp.com/ to learn more!  
+Visit https://pollenators.herokuapp.com/ and start scrolling to learn more!  
 
-# Creators
+## Creators
 Flavio Vilchezespinoza, flavio.vilchezespinoza@holbertonschool.com  
 Jennifer Tang, jennifer.tang@holbertonschool.com  
 Pollen, pollen.forensicbotany@gmail.com
