@@ -26,3 +26,4 @@ Visit https://pollenators.herokuapp.com/ to learn more!
 ### Creators
 Flavio Vilchezespinoza, flavio.vilchezespinoza@holbertonschool.com  
 Jennifer Tang, jennifer.tang@holbertonschool.com  
+Pollen, pollen.forensicbotany@gmail.com
