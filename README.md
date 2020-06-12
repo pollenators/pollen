@@ -1,6 +1,4 @@
-<p align="center">
-	<img width="480" height="500" src="https://i.imgur.com/tb8xMBs.png">
-</p>
+![Imgur](https://i.imgur.com/abKCvok.png)
 
 # Learning about the intersection of botany and forensics
 Flavio Vilcheze Espinoza and Jennifer Tang are the creaters of the Pollen website.  One day Flavio shared a book called The Nature of Life and Death by Patricia Wiltshire with Jennifer.  The book follows the professional career of Patricia Wiltshire as a forensic ecologist/botanist.  She studies and investigates plant and plant parts found at crime scenes.  The conversations Flavio and Jennifer had about the book spiraled into a shared interest in forensic botany.  After hours combing the Internet for resources on forensic botany and criminal cases solved by it to no avail, Flavio and Jennifer decided to build their own resource.  
@@ -23,7 +21,7 @@ The following are the three types of user we want to target in user story format
 ## Tutorial
 Visit https://pollenators.herokuapp.com/ to learn more!  
 
-### Creators
+# Creators
 Flavio Vilchezespinoza, flavio.vilchezespinoza@holbertonschool.com  
 Jennifer Tang, jennifer.tang@holbertonschool.com  
 Pollen, pollen.forensicbotany@gmail.com
