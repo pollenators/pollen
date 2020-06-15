@@ -1,4 +1,4 @@
-body {
+* {
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -12,13 +12,19 @@ header {
 	justify-content: center;
 	align-items: center;
 }
+header h2 {
+	display: flexbox;
+	font-size: 100px;
+	color: #FFFFFF;
+	align-content: center;
+	justify-content: center;
+}
 footer {
 	height: 10vh;
 	background-color: #1E1E1E;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 5vh;
 	overflow: hidden;
 }
 h1 {
