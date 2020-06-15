@@ -40,6 +40,7 @@ section {
 	padding: 5vh;
 	height: 100%;
 	width: 75%;
+	overflow: hidden;
 }
 .svgs {
 	display: flex;
