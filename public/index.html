@@ -3,14 +3,37 @@
 	<head>
 		<title>pollen</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="./animations.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Pollen</h1>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">POLLEN</a>
+				  </div>
+				  <div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">MAIN</a></li>
+						<li><a href="/public/about.html">ABOUT</a></li>
+						<li><a href="/public/quiz.html">QUIZ</a></li>  
+					</ul>
+				  </div>
+				</div>
+			  </nav>
 		</header>
 
 		<section class="animation">
@@ -23,25 +46,25 @@
 		<section class="animation">
 			<div class="main">
 				<div class="svgs">
-					<div class="poison"></div>
+					<div class="poison">
 						<h2>Pick Your Poison</h2>
-					<a href="stories/alum.html"><div class="arum"></div></a>
-					<div class="aloe"></div>
-					<div class="banana"></div>
-					<div class="caladium"></div>
-					<div class="bop"></div>
-					<div class="bloodlilly"></div>
-					<div class="frangipani"></div>
-					<div class="jasmine"></div>
+						<a href="stories/alum.html"><div class="arum"></div></a>
+						<a href="stories/alum.html"><div class="aloe"></div></a>
+						<a href="stories/alum.html"><div class="banana"></div></a>
+						<a href="stories/alum.html"><div class="caladium"></div></a>
+						<a href="stories/alum.html"><div class="bop"></div></a>
+						<a href="stories/alum.html"><div class="bloodlilly"></div></a>
+						<a href="stories/alum.html"><div class="frangipani"></div></a>
+						<a href="stories/alum.html"><div class="jasmine"></div></a>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<section class="animation">
 			<div class="story">
 				<h2>Story</h2>
-				<div class="text">
-					<?php include_once('database.php'); ?>
-				</div>
+				<?php include_once('database.php'); ?>
 			</div>
 		</section>
 
