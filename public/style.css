@@ -57,13 +57,18 @@ section {
 	background-color: #FFFFFF;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-self: center;
+	align-content: flex-start;
 	flex-wrap: wrap;
 	padding: 5vh;
 	height: 100%;
 	width: 75%;
 	overflow: hidden;
 	animation: 2s ease-out .05s 1 slideInFromBot;
+}
+p {
+	display: flexbox;
+	flex-grow: 2;
 }
 .svgs {
 	display: flex;
