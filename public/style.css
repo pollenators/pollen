@@ -29,13 +29,13 @@ header h2 {
 	align-content: center;
 	justify-content: center;
 }
-footer {
-	height: 10vh;
+footer, .footer-buttons {
+	height: 12vh;
 	background-color: #1E1E1E;
 	display: flex;
+	justify-self: center;
 	justify-content: center;
-	align-items: center;
-	overflow: hidden;
+	align-content: center;
 }
 h1 {
 	font-size: 100px;
