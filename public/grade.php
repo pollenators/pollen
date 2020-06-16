@@ -24,22 +24,19 @@
 				  </div>
 				  <div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
+					  <li class="active"><a href="/public/index.html">HOME</a></li>
+					  <li><a href="/public/about.html">ABOUT</a></li>
+					  <li><a href="/public/quiz.php">CHALLENGE</a></li>
+					</ul>
 
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="/public/index.html">MAIN</a></li>
-						<li><a href="/public/about.html">ABOUT</a></li>
-						<li><a href="/public/quiz.php">QUIZ</a></li>  
-					</ul>
 				  </div>
 				</div>
 			  </nav>
-			  <h1>POLLEN</h1>
 		</header>
 		
 		<section class="animation">
 			<div class="story">
-				<div id="page-wrap">
+				<div id="page-wrap"></div>
 		
         <?php
             
@@ -61,6 +58,15 @@
             
         ?>
 	
-	</div>
-</body>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-buttons">
+				<a href="mailto:pollen.forensicbotany@gmail.com"><i class="fa fa-envelope"></i></a>
+				<a href="https://github.com/pollenators/pollen"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>  
+			</div>
+		</footer>
+	</body>
 </html>

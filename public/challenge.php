@@ -24,21 +24,27 @@
 				  </div>
 				  <div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
+					  <li class="active"><a href="/public/index.html">HOME</a></li>
+					  <li><a href="/public/about.html">ABOUT</a></li>
+					  <li><a href="/public/quiz.php">CHALLENGE</a></li>
+					</ul>
 
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="/public/index.html">MAIN</a></li>
-						<li><a href="/public/about.html">ABOUT</a></li>
-						<li><a href="/public/quiz.php">QUIZ</a></li>  
-					</ul>
 				  </div>
 				</div>
 			  </nav>
-			  <h1>POLLEN</h1>
 		</header>
 		
 		<section class="animation">
 			<div class="story">
+				<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of the resources!</p>
+				<br>
+				<br>
+				<a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a>
+				<a href="https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany">Forensic Botany</a>
+				<a href="https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/">Fighting Crime, With Pollen</a>
+				<a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a>
+				<br>
+				<br>
 				<div id="page-wrap">
 					<form action="grade.php" method="post" id="quiz">
 						<ol>
@@ -109,14 +115,12 @@
 			</div>
 		</section>
 
-	</body>
-
-	<footer>
-		<div class="footer-buttons">
-			<a href="mailto:pollen.forensicbotany@gmail.com"><i class="fa fa-envelope"></i></a>
-			<a href="https://github.com/pollenators/pollen"><i class="fa fa-github"></i></a>
-			<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>  
-		</div>
-	</footer>
-
+		<footer>
+			<div class="footer-buttons">
+				<a href="mailto:pollen.forensicbotany@gmail.com"><i class="fa fa-envelope"></i></a>
+				<a href="https://github.com/pollenators/pollen"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>  
+			</div>
+		</footer>
+		</body>
 </html>
