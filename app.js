@@ -21,11 +21,11 @@ app.set('view engine', 'php');
 app.all(/.+\.php$/, phpExpress.router);
 
 router.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/public/index.html'));
+  res.sendFile(path.join(__dirname+'/views/index.html'));
 });
 
 router.get('/about',function(req,res){
-  res.sendFile(path.join(__dirname+'/public/about.html'));
+  res.sendFile(path.join(__dirname+'/views/about.html'));
 });
 
 app.use('/', router);

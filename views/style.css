@@ -108,18 +108,32 @@ section {
 	background-image: url('svg/arum.svg');
 	height: 100px;
 	width: 100px;
+	background-repeat: no-repeat;
+	font-size: 75px;
+	text-indent: -9999px;
+	display: block;
+
 }
+
 .aloe {
 	display: flexbox;
 	background-image: url('svg/aloe.svg');
 	height: 100px;
 	width: 100px;
+	background-repeat: no-repeat;
+	font-size: 75px;
+	display: block;
+
 }
 .banana {
 	display: flexbox;
 	background-image: url('svg/banana_leaf.svg');
 	height: 100px;
 	width: 100px;
+	background-repeat: no-repeat;
+	font-size: 75px;
+	display: block;
+
 }
 .footer-buttons a{
 	display: inline-flex;
