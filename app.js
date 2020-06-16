@@ -1,10 +1,10 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get('*', function (request, response){
-    response.sendFile(path.resolve(__dirname, '../public', 'index.html'));
+    response.sendFile(path.join(__dirname, '/public'));
 });
 
 app.listen(process.env.PORT || 3000);
