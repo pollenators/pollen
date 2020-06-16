@@ -12,7 +12,7 @@ router.get('/about',function(req,res){
 });
 
 router.get('/challenge',function(req,res){
-  res.sendFile(path.join(__dirname+'/public/challenge.html'));
+  res.sendFile(path.join(__dirname+'/public/challenge.php'));
 });
 
 app.use(express.static('public'));
