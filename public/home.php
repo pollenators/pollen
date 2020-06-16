@@ -13,7 +13,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<header>
+	<header>
 			<nav class="navbar navbar-inverse">
 				<div class="container-fluid">
 				  <div class="navbar-header">
@@ -26,9 +26,9 @@
 				  </div>
 				  <div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-					  <li class="active"><a href="/views/index.html">HOME</a></li>
-					  <li><a href="/views/about.html">ABOUT</a></li>
-					  <li><a href="/views/folder/challenge.php">CHALLENGE</a></li>
+					  <li class="active"><a href="/public/home.php">HOME</a></li>
+					  <li><a href="/public/about.html">ABOUT</a></li>
+					  <li><a href="/public/challenge.php">CHALLENGE</a></li>
 					</ul>
 
 				  </div>
