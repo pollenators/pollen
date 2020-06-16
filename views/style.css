@@ -16,7 +16,7 @@
 header {
 	height: 10vh;
 	min-height: 100%;
-	background-color: #1E1E1E;
+	background-color: #1b4332;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -30,7 +30,7 @@ header h2 {
 }
 footer, .footer-buttons {
 	height: 10vh;
-	background-color: #1E1E1E;
+	background-color: #1b4332;
 	display: flex;
 	justify-self: center;
 	justify-content: center;
@@ -41,12 +41,39 @@ h1 {
 	color: #FFFFFF;
 }
 section {
+	background-color: #1b4332;
 	display: flex;
 	justify-self: flex-start;
 	align-self: center;
 	align-content: center;
+	flex-wrap: wrap;
 	height: 100vh;
 }
+.wrapper {
+	display: flex;
+	justify-self: flex-start;
+	align-self: center;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.logo {
+	display: flex;
+	justify-self: flex-start;
+	flex-grow: 2;
+}
+.items {
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+}
+.animation {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	align-content: flex-start;
+}
+
 .intro, .main, .story {
 	background-color: #FFFFFF;
 	display: flex;
@@ -56,7 +83,6 @@ section {
 	flex-wrap: wrap;
 	flex-direction: row;
 	padding: 5vh;
-	height: 100%;
 	width: 75%;
 	overflow: hidden;
 	animation: 2s ease-out .05s 1 slideInFromBot;
@@ -95,21 +121,13 @@ section {
 	height: 100px;
 	width: 100px;
 }
-.animation {
-	background-color: #1E1E1E;
-	display: flex;
-	justify-content: center;
-	align-self: center;
-	align-content: flex-start;
-}
-
 .footer-buttons a{
 	display: inline-flex;
 	text-decoration: none;
 	font-size: 18px;
 	width: 60px;
 	height: 60px;
-	color: #fff;
+	color: #1b4332;
 	justify-content: center;
 	align-items: center;
 	position: relative;
