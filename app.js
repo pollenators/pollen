@@ -8,7 +8,7 @@ const phpExpress = require('php-express')({
 });
 
 const bodyParser = require('body-parser');
-app.use(express.bodyParser());
+app.use(bodyParser.json());
 
 app.set('port', (process.env.PORT || 3000));
 
@@ -20,18 +20,16 @@ app.set('view engine', 'php');
 
 app.all(/.+\.php$/, phpExpress.router);
 
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/index.html'));
+});
+
+router.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/about.html'));
+});
+
+app.use('/', router);
+
 app.listen(process.env.PORT || 3000);
-
-//router.get('/',function(req,res){
-//  res.sendFile(path.join(__dirname+'/public/index.html'));
-//});
-
-//router.get('/about',function(req,res){
-//  res.sendFile(path.join(__dirname+'/public/about.html'));
-//});
-
-//router.get('/challenge',function(req,res){
-//  res.sendFile(path.join(__dirname+'/public/challenge.php'));
-//});
 
 //app.use(express.static('public'));
