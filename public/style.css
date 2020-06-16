@@ -21,6 +21,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 header h2 {
 	display: flexbox;
@@ -36,6 +37,7 @@ footer, .footer-buttons {
 	justify-self: center;
 	justify-content: center;
 	align-content: center;
+	overflow: hidden;
 }
 h1 {
 	font-size: 100px;
@@ -49,6 +51,7 @@ section {
 	align-content: center;
 	flex-wrap: wrap;
 	height: 100vh;
+	overflow: hidden;
 }
 .wrapper {
 	display: flex;
