@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.set('port', (process.env.PORT || 3000));
 
-app.use('/', express.static(__dirname));
+//app.use('/', express.static(__dirname));
 
 app.set('views', path.join(__dirname, '/views'));
 app.engine('php', phpExpress.engine);
@@ -28,7 +28,7 @@ app.all(/.+\.php$/, phpExpress.router);
 //  res.sendFile(path.join(__dirname+'/public/about.html'));
 //});
 
-//app.use('/', router);
+app.use('/', router);
 
 app.listen(process.env.PORT || 3000);
 
