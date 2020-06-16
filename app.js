@@ -5,4 +5,4 @@ app.use(express.static('public'))
 
 //app.use('/public/about.html', express.static(__dirname + '/public/about.html'));
 
-app.listen(process.env.port || 3000)
+app.listen(process.env.port || 3000);
