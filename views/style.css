@@ -1,0 +1,146 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes slideInFromBot {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+header {
+	height: 10vh;
+	min-height: 100%;
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: 2s ease-out 0s 1 slideInFromBot;
+}
+header h2 {
+	display: flexbox;
+	font-size: 100px;
+	color: #FFFFFF;
+	align-content: center;
+	justify-content: center;
+}
+footer, .footer-buttons {
+	height: 10vh;
+	background-color: #1E1E1E;
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	align-content: center;
+}
+h1 {
+	font-size: 100px;
+	color: #FFFFFF;
+}
+section {
+	display: flex;
+	justify-self: flex-start;
+	align-self: center;
+	align-content: center;
+	height: 100vh;
+}
+.intro, .main, .story {
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 5vh;
+	height: 100%;
+	width: 75%;
+	overflow: hidden;
+	animation: 2s ease-out .05s 1 slideInFromBot;
+}
+.animation h2 {
+	width: 100%; 
+	text-align:center;
+}
+.svgs {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	align-content: flex-start;
+}
+.text {
+	display: flex;
+	justify-content: flex-start;
+	flex-grow: 1;
+	align-items: flex-start;
+}
+.arum {
+	display: flexbox;
+	background-image: url('svg/arum.svg');
+	height: 100px;
+	width: 100px;
+}
+.aloe {
+	display: flexbox;
+	background-image: url('svg/aloe.svg');
+	height: 100px;
+	width: 100px;
+}
+.banana {
+	display: flexbox;
+	background-image: url('svg/banana_leaf.svg');
+	height: 100px;
+	width: 100px;
+}
+.animation {
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	align-content: flex-start;
+}
+
+.footer-buttons a{
+	display: inline-flex;
+	text-decoration: none;
+	font-size: 18px;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 3;
+	margin: 0 8px;
+  }
+  
+.footer-buttons a::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: linear-gradient(45deg,#22a6b3,#74A867);
+	border-radius: 50%;
+	z-index: 3;
+	transition: 0.3s ease-in;
+}
+  
+.footer-buttons a:hover::before{
+	transform: scale(0);
+	z-index: 3;
+}
+  
+.footer-buttons a i{
+	z-index: 3;
+	transition: 0.3s ease-in;
+}
+  
+.footer-buttons a:hover i{
+	z-index: 3;
+	background: linear-gradient(45deg,#22a6b3,#74A867);
+	transform: scale(2.2);
+}
