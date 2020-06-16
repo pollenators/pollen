@@ -20,15 +20,15 @@ app.set('view engine', 'php');
 
 app.all(/.+\.php$/, phpExpress.router);
 
-//router.get('/',function(req,res){
-//  res.sendFile(path.join(__dirname+'/public/index.html'));
-//});
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/index.html'));
+});
 
-//router.get('/about',function(req,res){
-//  res.sendFile(path.join(__dirname+'/public/about.html'));
-//});
+router.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/about.html'));
+});
 
-//app.use('/', router);
+app.use('/', router);
 
 app.listen(process.env.PORT || 3000);
 
