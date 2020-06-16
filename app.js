@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const router = express.Router();
-const phpExpress = require('php-express')({
-    binPath: 'php'
-});
 
 router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/public/index.html'));
@@ -22,7 +19,7 @@ app.set('views', path.join(__dirname, '/views'));
 app.engine('php', phpExpress.engine);
 app.set('view engine', 'php');
 
-app.use(express.static('public'));
+//app.use(express.static('public'));
 
 app.use('/', router);
 
