@@ -3,8 +3,10 @@
 	padding: 0px;
 	font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
+
 body {
 	background-color: #1b4332;
+	font-size: 2000px;
 }
 @keyframes slideInFromBot {
 	0% {
@@ -45,7 +47,6 @@ section {
 	align-content: center;
 	flex-wrap: wrap;
 	height: 100vh;
-	overflow: hidden;
 }
 .wrapper {
 	display: flex;
@@ -54,10 +55,12 @@ section {
 	align-content: center;
 	flex-wrap: wrap;
 	flex-direction: column;
+	margin: 25px;
 }
 .wrapperitems {
 	display: flex;
 	justify-self: flex-start;
+	justify-items: space-evenly;
 	align-self: center;
 	align-content: center;
 	flex-wrap: wrap;
@@ -66,12 +69,16 @@ section {
 .logo {
 	display: flex;
 	justify-self: flex-start;
+	justify-items: space-evenly;
 	flex-grow: 2;
 }
 .items {
-	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.3);
 	display: flex;
 	flex-direction: row;
+	justify-items: space-evenly;
+	border-radius: 100px;
+	padding: 5vh;
 }
 .animation {
 	display: flex;
@@ -104,9 +111,8 @@ section {
 }
 .text {
 	display: flex;
-	justify-content: flex-start;
-	flex-grow: 1;
-	align-items: flex-start;
+	flex-direction: column;
+	padding: 5px;
 }
 .arum {
 	display: flexbox;
