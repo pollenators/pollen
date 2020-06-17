@@ -57,10 +57,10 @@
 				<h2>Story</h2>
 <?php
 
-				$servername = "localhost";
-				$username = "root";
-				$password = "root";
-				$dbname = "pollen";
+				$servername = "us-cdbr-east-05.cleardb.net";
+				$username = "b8f493d5441bba";
+				$password = "d2ebee76";
+				$dbname = "heroku_7f19938a1668d8e";
 
 				// Create connection
 				$conn = new mysqli($servername, $username, $password, $dbname);

@@ -38,13 +38,12 @@
 			<div class="story">
 				<div id="page-wrap"></div>
 		
-        <?php
+<?php
             
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
             $answer3 = $_POST['question-3-answers'];
             $answer4 = $_POST['question-4-answers'];
-            $answer5 = $_POST['question-5-answers'];
         
             $totalCorrect = 0;
             
@@ -56,7 +55,7 @@
             
             echo "<div id='results'>$totalCorrect / 5 correct</div>";
             
-        ?>
+?>
 	
 			</div>
 		</section>

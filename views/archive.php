@@ -42,9 +42,9 @@
 					<div class="poison">
 						<h2>Pick Your Poison</h2>
 <?php
-						echo "<a href=\"home.php?pictureId=1\" class=\"arum\"></a>";
-						echo "<a href=\"home.php?pictureId=2\" class=\"aloe\"></a>";
-						echo "<a href=\"home.php?pictureId=3\" class=\"banana\"></a>";
+						echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
+						echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\"></a>";
+						echo "<a href=\"archive.php?pictureId=3\" class=\"banana\"></a>";
 ?>
 
 					</div>
@@ -57,10 +57,10 @@
 				<h2>Story</h2>
 <?php
 
-				$servername = "localhost";
-				$username = "root";
-				$password = "root";
-				$dbname = "pollen";
+				$servername = "us-cdbr-east-05.cleardb.net";
+				$username = "b8f493d5441bba";
+				$password = "d2ebee76";
+				$dbname = "heroku_7f19938a1668d8e";
 
 				// Create connection
 				$conn = new mysqli($servername, $username, $password, $dbname);
