@@ -6,9 +6,12 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js" integrity="sha256-wypDCQw+qwWtdARZAAtUMv/1SWOEB1XHZwAFoNc9Wn8=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="/views/animations.js"></script>
 	</head>
 	<body>
 		<header>
@@ -24,7 +27,7 @@
 				  </div>
 				  <div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-					  <li class="active"><a href="/public/index.html">HOME</a></li>
+					  <li class="active"><a href="/public/home.php">HOME</a></li>
 					  <li><a href="/public/about.html">ABOUT</a></li>
 					  <li><a href="/public/challenge.php">CHALLENGE</a></li>
 					</ul>
