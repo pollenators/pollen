@@ -29,6 +29,7 @@
 					  <li class="active"><a href="/views/index.html">HOME</a></li>
 					  <li><a href="/views/about.html">ABOUT</a></li>
 					  <li><a href="/views/folder/challenge.php">CHALLENGE</a></li>
+					  <li><a href="/views/folder/submit.php">SUBMIT</a></li>
 					</ul>
 
 				  </div>
@@ -40,58 +41,82 @@
 			<div class="main">
 				<div class="svgs">
 					<div class="poison">
-						<h2>Pick Your Poison</h2>
-<?php
-						echo "<a href=\"home.php?pictureId=1\" class=\"arum\"></a>";
-						echo "<a href=\"home.php?pictureId=2\" class=\"aloe\"></a>";
-						echo "<a href=\"home.php?pictureId=3\" class=\"banana\"></a>";
-?>
+						<h2>Submit a Story</h2>
 
+						<form action="submit.php" method="post">
+							<label for="userEmail">Email</label>
+							<input type="text" id="userEmail" name="userEmail"/>
+
+							<label for="userSource">Article Link</label>
+							<input type="text" id="userSource" name="userSource"/>
+
+							<label for="userDescription">Article Description</label>
+							<textarea name="userDescription"></textarea>
+
+							<input type="submit" value="Submit"/>
+						</form>
+
+<?php
+
+						$servername = "localhost";
+						$username = "root";
+						$password = "root";
+						$dbname = "pollen";
+
+						// Create connection
+						$conn = new mysqli($servername, $username, $password, $dbname);
+						// Check connection
+						if ($conn->connect_error) {
+							die("Connection failed: " . $conn->connect_error);
+						} 
+
+						if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
+							$userEmail = $_POST["userEmail"];
+							$userSource = $_POST["userSource"];
+							$userDescription = $_POST["userDescription"];
+
+							// If something was submitted, store into db
+							$sql = "INSERT INTO userStories (email, source, description) ";
+							$sql .= "VALUES ('$userEmail', '$userSource', '$userDescription')";
+
+							$result = $conn->query($sql);
+
+							// Select everthing that was submitted
+							$sql = "SELECT * FROM userStories ORDER BY id DESC LIMIT 1";
+
+							$result = $conn->query($sql);
+
+							// Output submission
+							if ($result->num_rows > 0) {
+								while($row = $result->fetch_assoc()) {
+								//	echo "Email: " . $row["email"] . "<br>" . "Article Link: " . $row["source"]. "<br>" . "Article Description: " . $row["description"];
+									?>
+										<span class="submit">Email: 
+<?php 						
+											echo( $row["email"] );
+?>
+										</span>
+										<span class="submit">Article Link:
+<?php
+											echo( $row["source"] );
+?>
+										</span>
+										<span class="submit">Article Description:
+<?php
+											echo( $row["description"]);
+?>	
+										</span>		
+									<?php
+		
+								}
+							}
+						}
+
+						// Close connection
+						$conn->close();
+?>
 					</div>
 				</div>
-			</div>
-		</section>
-
-		<section class="animation">
-			<div class="story">
-				<h2>Story</h2>
-<?php
-
-				$servername = "localhost";
-				$username = "root";
-				$password = "root";
-				$dbname = "pollen";
-
-				// Create connection
-				$conn = new mysqli($servername, $username, $password, $dbname);
-				// Check connection
-				if ($conn->connect_error) {
-  					die("Connection failed: " . $conn->connect_error);
-				} 
-
-				// Output story if id matches
-				// Check to see what picture was clicked and get the id
-				$id = "";
-				if( isset( $_GET["pictureId"] ) ) {
-					$id = $_GET["pictureId"];
-				}
-				// SQL command
-				$sql = "SELECT * FROM story ";
-				$sql .= "WHERE id=" . $id . "";
-				
-				$result = $conn->query($sql);
-
-				if ($result->num_rows > 0) {
-					// output data of each row
-					while($row = $result->fetch_assoc()) {
-						echo "Title: " . $row["title"]. "<br>" . $row["article"];
-					}
-				}
-
-				// Close connection
-				$conn->close();
-?>
-				
 			</div>
 		</section>
 
