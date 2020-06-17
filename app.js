@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-//const path = require('path');
+const path = require('path');
 
 //const router = express.Router();
 //const phpExpress = require('php-express')({
@@ -20,9 +20,9 @@ const app = express();
 
 //app.all(/.+\.php$/, phpExpress.router);
 
-//router.get('/',function(req,res){
-//  res.sendFile(path.join(__dirname+'/views/index.html'));
-//});
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname + '/public/index.php'));
+});
 
 //router.get('/about',function(req,res){
 //  res.sendFile(path.join(__dirname+'/views/about.html'));
