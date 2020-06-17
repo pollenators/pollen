@@ -16,7 +16,9 @@ body {
 		transform: translateY(0%);
 	}
 }
-
+h2, .h2, .phrase, .text-light {
+	color:#FFFFFF;
+}
 header {
 	height: 10vh;
 	min-height: 100%;
@@ -39,6 +41,10 @@ footer, .footer-buttons {
 .h1, h1, .logo {
 	font-size: 100pt;
 	color: #FFFFFF;
+	display: flex;
+	justify-self: flex-end;
+	justify-items: center;
+	flex-grow: 1;
 }
 section {
 	background-color: #1b4332;
@@ -49,40 +55,52 @@ section {
 	flex-wrap: wrap;
 	height: 100%;
 }
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: center;
+}
+  
+.navbar .navbar-collapse {
+	text-align: center;
+}
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
 .wrapper {
 	display: flex;
-	justify-self: flex-start;
+	justify-self: center;
 	align-self: center;
 	align-content: center;
-	flex-wrap: wrap;
+	flex-direction: space-between;
 	flex-direction: column;
-	margin: 25px;
+	margin: 1vh;
 }
 .logo {
 	display: flex;
-	justify-self: flex-start;
-	justify-items: space-evenly;
-	flex-grow: 2;
+	justify-self: flex-end;
+	justify-items: center;
+	flex-grow: 1;
 }
 .items {
 	background-color: rgba(255, 255, 255, 0.3);
 	display: flex;
 	flex-direction: row;
-	justify-items: space-evenly;
+	justify-items: space-between;
 	border-radius: 100px;
-	padding: 5vh;
+	padding: 2vh;
+	width: max-content;
 }
-.container {
-	display: flex;
-	flex-wrap: unset;
-}
-  
 .child {
 	flex: 0 32%;
 	margin-bottom: 2%; /* (100-32*3)/2 */
-	padding: 3px;
+	padding: 15px;
+	width: min-content;
 }
+
 .animation {
 	display: flex;
 	justify-content: center;
@@ -115,7 +133,7 @@ section {
 .text {
 	display: flex;
 	flex-direction: column;
-	padding: 5px;
+	flex-grow: 2;
 }
 .arum {
 	display: flexbox;
