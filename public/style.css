@@ -48,6 +48,7 @@ section {
 	flex-wrap: wrap;
 	height: 100vh;
 }
+
 .wrapper {
 	display: flex;
 	justify-self: flex-start;
