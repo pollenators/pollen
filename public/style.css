@@ -34,6 +34,7 @@ footer, .footer-buttons {
 	justify-content: center;
 	align-content: center;
 	overflow: hidden;
+	display: dynamic;
 }
 .h1, h1, .logo {
 	font-size: 100pt;
@@ -46,7 +47,7 @@ section {
 	align-self: center;
 	align-content: center;
 	flex-wrap: wrap;
-	height: 100vh;
+	height: 100%;
 }
 
 .wrapper {
@@ -57,15 +58,6 @@ section {
 	flex-wrap: wrap;
 	flex-direction: column;
 	margin: 25px;
-}
-.wrapperitems {
-	display: flex;
-	justify-self: flex-start;
-	justify-items: space-evenly;
-	align-self: center;
-	align-content: center;
-	flex-wrap: wrap;
-	flex-direction: row;
 }
 .logo {
 	display: flex;
@@ -80,6 +72,16 @@ section {
 	justify-items: space-evenly;
 	border-radius: 100px;
 	padding: 5vh;
+}
+.container {
+	display: flex;
+	flex-wrap: unset;
+}
+  
+.child {
+	flex: 0 32%;
+	margin-bottom: 2%; /* (100-32*3)/2 */
+	padding: 3px;
 }
 .animation {
 	display: flex;
