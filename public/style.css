@@ -132,6 +132,19 @@ section {
 	overflow: scroll;
 	animation: 2s ease-out .05s 1 slideInFromBot;
 }
+.background {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-self: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 5vh;
+	width: 75%;
+	overflow: scroll;
+	animation: 2s ease-out .05s 1 slideInFromBot;
+}
 .animation h2 {
 	width: 100%; 
 	text-align:center;

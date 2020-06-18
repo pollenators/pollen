@@ -34,6 +34,7 @@
 		</header>
 		<h2>Pick Your Poison</h2>
 		<section class="animation">
+			<div class="background">
 			<div class="wrapper">
 				<div class="wrapper items">
 						<div class="items">
@@ -45,6 +46,7 @@
 						</div>
 				</div>
 			</div>
+		</div>
 		</section>
 		<section class="animation">
 <?php
