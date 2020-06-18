@@ -43,29 +43,25 @@
 						echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\"></a>";
 						echo "<a href=\"archive.php?pictureId=3\" class=\"banana\"></a>";
 ?>
-
 					</div>
 				</div>
 			</div>
 		</section>
-
 		<section class="animation">
 			<div class="story">
 				<h2>Story</h2>
 <?php
-
+				// Database credentials
 				$servername = "us-cdbr-east-05.cleardb.net";
 				$username = "b8f493d5441bba";
 				$password = "d2ebee76";
 				$dbname = "heroku_7f19938a1668d8e";
-
 				// Create connection
 				$conn = new mysqli($servername, $username, $password, $dbname);
 				// Check connection
 				if ($conn->connect_error) {
   					die("Connection failed: " . $conn->connect_error);
 				} 
-
 				// Output story if id matches
 				// Check to see what picture was clicked and get the id
 				$id = "";
@@ -75,16 +71,13 @@
 				// SQL command
 				$sql = "SELECT * FROM story ";
 				$sql .= "WHERE id=" . $id . "";
-				
 				$result = $conn->query($sql);
-
 				if ($result->num_rows > 0) {
 					// output data of each row
 					while($row = $result->fetch_assoc()) {
 						echo "Title: " . $row["title"]. "<br>" . $row["article"];
 					}
 				}
-
 				// Close connection
 				$conn->close();
 ?>
