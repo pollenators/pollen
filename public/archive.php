@@ -33,10 +33,10 @@
 			</div>
 		</header>
 		<section class="animation">
+		<div class="background">
 				<div class="logo">
 					<h1 class="logo">pick your poison</h1>
 				</div>
-			<div class="background">
 				<div class="wrapper">
 					<div class="wrapper items">
 							<div class="items">
