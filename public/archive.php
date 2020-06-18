@@ -32,8 +32,10 @@
 				</nav>
 			</div>
 		</header>
-		<h2>Pick Your Poison</h2>
 		<section class="animation">
+				<div class="logo">
+					<h1 class="logo">pick your poison</h1>
+				</div>
 			<div class="background">
 				<div class="wrapper">
 					<div class="wrapper items">
