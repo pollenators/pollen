@@ -92,14 +92,6 @@
 			</div>
 		</section>
 
-		<footer>
-		<div class="footer-buttons">
-			<a href="mailto:pollen.forensicbotany@gmail.com"><i class="fa fa-envelope"></i></a>
-			<a href="https://github.com/pollenators/pollen"><i class="fa fa-github"></i></a>
-			<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>  
-		</div>
-	</footer>
-
 	</body>
 
 </html>
