@@ -19,6 +19,10 @@ body {
 h2, .h2, .phrase, .text-light {
 	color:#FFFFFF;
 }
+.images {
+	width: 70px;
+	height: 70px;
+}
 header {
 	height: 10vh;
 	min-height: 100%;
@@ -99,7 +103,12 @@ section {
 	margin-bottom: 2%; /* (100-32*3)/2 */
 	padding: 15px;
 	width: min-content;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
+
+.flex-horizontal-center { justify-content: center; } 
 
 .animation {
 	display: flex;
