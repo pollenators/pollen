@@ -11,30 +11,25 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="/views/animations.js"></script>
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-inverse">
-				<div class="container-fluid">
-				  <div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					  <span class="icon-bar"></span>
-					  <span class="icon-bar"></span>
-					  <span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/">POLLEN</a>
-				  </div>
-				  <div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-					  <li class="active"><a href="/views/index.html">HOME</a></li>
-					  <li><a href="/views/about.html">ABOUT</a></li>
-					  <li><a href="/views/folder/challenge.php">CHALLENGE</a></li>
-					  <li><a href="/views/folder/submit.php">SUBMIT</a></li>
-					</ul>
+			<div class="container">
+				<nav class="navbar sticky-top navbar-light" style="background-color: #1b4332;">
+					<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="myNavbar" >
+						<ul class="nav navbar-nav">
+						<li><a href="about.html" class="text-light">ABOUT</a></li>
+						<li><a href="archive.php"  class="text-light">ARCHIVE</a></li>
+						<li><a href="submit.php" class="text-light">SUBMISSIONS</a></li>
+						<li><a href="challenge.php" class="text-light">CHALLENGE</a></li>
+						</ul>
 
-				  </div>
-				</div>
-			  </nav>
+					</div>
+					</div>
+				</nav>
+			</div>
 		</header>
 
 		<section class="animation">
