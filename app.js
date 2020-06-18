@@ -7,7 +7,7 @@ var phpExpress = require('php-express')({
 });
 
 // Set view engine to php-express
-app.set('views', './views');
+app.set('views', './public');
 app.engine('php', phpExpress.engine);
 app.set('view engine', 'php');
 
