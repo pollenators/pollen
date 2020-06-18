@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.set('port', (process.env.PORT || 3000));
 
-app.use('/', express.static(__dirname));
+app.use('/', express.static(__dirname, '/views'));
 
 app.set('views', path.join(__dirname, '/views'));
 app.engine('php', phpExpress.engine);
