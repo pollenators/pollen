@@ -39,9 +39,9 @@
 					<div class="poison">
 						<h2>Pick Your Poison</h2>
 <?php
-						echo "<a href=\"home.php?pictureId=1\" class=\"arum\"></a>";
-						echo "<a href=\"home.php?pictureId=2\" class=\"aloe\"></a>";
-						echo "<a href=\"home.php?pictureId=3\" class=\"banana\"></a>";
+						echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
+						echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\"></a>";
+						echo "<a href=\"archive.php?pictureId=3\" class=\"banana\"></a>";
 ?>
 
 					</div>
