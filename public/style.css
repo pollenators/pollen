@@ -6,7 +6,6 @@
 
 body {
 	background-color: #1b4332;
-	font-size: 2000px;
 }
 @keyframes slideInFromBot {
 	0% {
@@ -33,14 +32,13 @@ header {
 	overflow-y: visible;
 }
 footer, .footer-buttons {
-	height: 10vh;
+	height: 100%;
 	background-color: #1b4332;
 	display: flex;
 	justify-self: center;
 	justify-content: center;
 	align-content: center;
-	overflow: hidden;
-	display: dynamic;
+	overflow: visible;
 }
 .h1, h1, .logo {
 	font-size: 100pt;
@@ -119,6 +117,7 @@ section {
 .intro, .main, .story {
 	background-color: #FFFFFF;
 	display: flex;
+	height: 100vh;
 	justify-content: center;
 	align-self: center;
 	align-content: flex-start;

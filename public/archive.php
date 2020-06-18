@@ -34,16 +34,16 @@
 		</header>
 
 		<section class="animation">
-			<div class="main">
-				<div class="svgs">
-					<div class="poison">
+			<div class="wrapper">
+				<div class="wrapper items">
 						<h2>Pick Your Poison</h2>
+						<div class="items">
 <?php
 						echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
 						echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\"></a>";
 						echo "<a href=\"archive.php?pictureId=3\" class=\"banana\"></a>";
 ?>
-					</div>
+						</div>
 				</div>
 			</div>
 		</section>
