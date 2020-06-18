@@ -36,7 +36,7 @@
 		<section class="animation">
 			<div class="wrapper">
 				<div class="wrapper items">
-					<div class="wrapper">
+					<div class="wrapper items">
 						<h2>Pick Your Poison</h2>
 <?php
 						echo "<div class\"items\"><a href=\"archive.php?pictureId=1\" class=\"arum\"></a></div>";
@@ -48,7 +48,7 @@
 			</div>
 		</section>
 		<section class="animation">
-			<div class="wrapper">
+			<div class="story">
 				<h2>Story</h2>
 <?php
 				// Database credentials
