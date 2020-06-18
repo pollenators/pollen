@@ -20,8 +20,9 @@
 					<div class="container-fluid">
 					<div class="collapse navbar-collapse" id="myNavbar" >
 						<ul class="nav navbar-nav">
+						<li><a href="home.html" class="text-light">HOME</a></li>
 						<li><a href="about.html" class="text-light">ABOUT</a></li>
-						<li><a href="archive.php"  class="text-light">ARCHIVE</a></li>
+						<li><a href="archive.php" class="text-light">ARCHIVE</a></li>
 						<li><a href="submit.php" class="text-light">SUBMISSIONS</a></li>
 						<li><a href="challenge.php" class="text-light">CHALLENGE</a></li>
 						</ul>
