@@ -87,7 +87,7 @@
 								while($row = $result->fetch_assoc()) {
 								//	echo "Email: " . $row["email"] . "<br>" . "Article Link: " . $row["source"]. "<br>" . "Article Description: " . $row["description"];
 									?>
-										<div class="items"><span class="submit">Email: 
+										<div class="wrapper"><div class="items"><span class="submit">Email: 
 <?php 						
 											echo( $row["email"] );
 ?>
@@ -96,12 +96,12 @@
 <?php
 											echo( $row["source"] );
 ?>
-										</span></div> 
+										</span></div>
 										<div class="items"><span class="submit">Article Description:
 <?php
 											echo( $row["description"]);
 ?>	
-										</span></div>
+										</span></div></div>
 									<?php
 		
 								}
