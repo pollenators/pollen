@@ -1,31 +1,23 @@
-var express = require('express'),
-    http = require('http'),
-    path = require('path'),
-
-    // Use php-express and config it
-    phpExpress = require('../')({
-        binPath: '/usr/bin/php'
-    });
-
-// Init Express js
+var express = require('express');
 var app = express();
-app.set('port', process.env.PORT || 3000);
 
-// Body parser is required
-app.use(express.bodyParser());
+// Use php-express
+var phpExpress = require('php-express')({
+  binPath: 'php'
+});
 
 // Set view engine to php-express
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', './views');
 app.engine('php', phpExpress.engine);
 app.set('view engine', 'php');
-app.use(app.router);
-app.use(express.static(path.join(__dirname, 'public')));
 
-// Routing all .php file to php-express
+// Routing all php files to php-express
 app.all(/.+\.php$/, phpExpress.router);
 
-http.createServer(app).listen(app.get('port'), function(){
-  console.log('Pollen app listening on port ' + app.get('port'));
+// Create server
+var server = app.listen(3000, function () {
+  var port = server.address().port;
+  console.log('Pollen app listening at on %s', port);
 });
 
 //const path = require('path');
