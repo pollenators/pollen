@@ -232,3 +232,16 @@ section {
 	background: linear-gradient(45deg,#22a6b3,#74A867);
 	transform: scale(2.2);
 }
+
+form#userStoryForm {
+	display: block;
+}
+
+ .userDescription{
+	width: 400px;
+	height: 70px;
+  }
+
+  input[type=text]{
+	  width: 400px
+  }

@@ -110,7 +110,7 @@
 								</div>
 							</li>
 						</ol>
-						<input type="submit" value="Submit" />
+						<input type="submit" value="Pollenate" />
 					</form>
 				</div>
 			</div>

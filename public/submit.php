@@ -39,17 +39,20 @@
 					<div class="item">
 						<h2>Submit a Story</h2>
 
-						<form action="submit.php" method="post">
-							<label for="userEmail">Email</label>
-							<input type="text" id="userEmail" name="userEmail"/>
-
-							<label for="userSource">Article Link</label>
-							<input type="text" id="userSource" name="userSource"/>
-
-							<label for="userDescription">Article Description</label>
-							<textarea name="userDescription"></textarea>
-
-							<input type="submit" value="Submit"/>
+						<form action="submit.php" method="post" id="userStoryForm">
+							<div class="userStoryFormElement">
+								<label for="userEmail">Email</label><br />
+								<input type="text" id="userEmail" name="userEmail"/>
+							</div>
+							<div class="userStoryFormElement">
+								<label for="userSource">Article Link</label><br />
+								<input type="text" id="userSource" name="userSource"/>
+							</div>
+							<div class="userStoryFormElement">
+								<label for="userDescription">Article Description</label><br />
+								<textarea name="userDescription" class="userDescription"></textarea>
+							</div>
+							<input type="submit" value="Pollenate"/>
 						</form>
 
 <?php
@@ -85,8 +88,8 @@
 							// Output submission
 							if ($result->num_rows > 0) {
 								while($row = $result->fetch_assoc()) {
-								//	echo "Email: " . $row["email"] . "<br>" . "Article Link: " . $row["source"]. "<br>" . "Article Description: " . $row["description"];
-									?>
+	
+?>
 									<span class="submit">Email: 
 <?php 						
 											echo( $row["email"] );
