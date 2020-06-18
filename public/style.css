@@ -6,7 +6,6 @@
 
 body {
 	background-color: #1b4332;
-	font-size: 2000px;
 }
 @keyframes slideInFromBot {
 	0% {
@@ -39,8 +38,7 @@ footer, .footer-buttons {
 	justify-self: center;
 	justify-content: center;
 	align-content: center;
-	overflow: hidden;
-	display: dynamic;
+	overflow: visible
 }
 .h1, h1, .logo {
 	font-size: 100pt;

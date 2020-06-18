@@ -34,9 +34,9 @@
 		</header>
 
 		<section class="animation">
-			<div class="main">
-				<div class="svgs">
-					<div class="poison">
+			<div class="wrapper">
+				<div class="wrapper items">
+					<div class="wrapper">
 						<h2>Pick Your Poison</h2>
 <?php
 						echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
