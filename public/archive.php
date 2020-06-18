@@ -38,11 +38,13 @@
 				<div class="wrapper items">
 					<div class="wrapper items">
 						<h2>Pick Your Poison</h2>
+						<div class="items">
 <?php
-						echo "<div class\"items\"><a href=\"archive.php?pictureId=1\" class=\"arum\"></a></div>";
-						echo "<div class\"items\"><a href=\"archive.php?pictureId=2\" class=\"aloe\"></a></div>";
-						echo "<div class\"items\"><a href=\"archive.php?pictureId=3\" class=\"banana\"></a></div>";
+						echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
+						echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\"></a>";
+						echo "<a href=\"archive.php?pictureId=3\" class=\"banana\"></a>";
 ?>
+						</div>
 					</div>
 				</div>
 			</div>
