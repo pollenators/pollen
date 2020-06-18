@@ -39,16 +39,16 @@
 					<div class="wrapper">
 						<h2>Pick Your Poison</h2>
 <?php
-						echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
-						echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\"></a>";
-						echo "<a href=\"archive.php?pictureId=3\" class=\"banana\"></a>";
+						echo "<div class\"items\"><a href=\"archive.php?pictureId=1\" class=\"arum\"></a></div>";
+						echo "<div class\"items\"><a href=\"archive.php?pictureId=2\" class=\"aloe\"></a></div>";
+						echo "<div class\"items\"><a href=\"archive.php?pictureId=3\" class=\"banana\"></a></div>";
 ?>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="animation">
-			<div class="story">
+			<div class="wrapper">
 				<h2>Story</h2>
 <?php
 				// Database credentials
