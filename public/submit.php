@@ -35,8 +35,8 @@
 
 		<section class="animation">
 			<div class="main">
-				<div class="svgs">
-					<div class="poison">
+				<div class="wrapper">
+					<div class="item">
 						<h2>Submit a Story</h2>
 
 						<form action="submit.php" method="post">
@@ -87,21 +87,21 @@
 								while($row = $result->fetch_assoc()) {
 								//	echo "Email: " . $row["email"] . "<br>" . "Article Link: " . $row["source"]. "<br>" . "Article Description: " . $row["description"];
 									?>
-										<div class="wrapper"><div class="items"><span class="submit">Email: 
+									<span class="submit">Email: 
 <?php 						
 											echo( $row["email"] );
 ?>
-										</span></div>
-										<div class="items"><span class="submit">Article Link:
+										</span>
+										<span class="submit">Article Link:
 <?php
 											echo( $row["source"] );
 ?>
-										</span></div>
-										<div class="items"><span class="submit">Article Description:
+										</span>
+										<span class="submit">Article Description:
 <?php
 											echo( $row["description"]);
 ?>	
-										</span></div></div>
+										</span>
 									<?php
 		
 								}
