@@ -101,12 +101,16 @@ section {
 	margin-bottom: 2%; /* (100-32*3)/2 */
 	padding: 15px;
 	width: min-content;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+	align-items: center; 
+	justify-content: center; 
+	flex-direction: column; 
 }
 
-.flex-horizontal-center { justify-content: center; } 
+.flex-horizontal-center {	
+	align-items: center; 
+	justify-content: center; 
+	flex-direction: column;
+} 
 
 .animation {
 	display: flex;
