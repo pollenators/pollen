@@ -41,9 +41,9 @@
 					<div class="wrapper items">
 							<div class="items">
 <?php
-							echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
-							echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\"></a>";
-							echo "<a href=\"archive.php?pictureId=3\" class=\"banana\"></a>";
+							echo "<a href=\"archive.php?pictureId=1\" class=\"arum\" title=\"arum\"></a>";
+							echo "<a href=\"archive.php?pictureId=2\" class=\"aloe\" title=\"aloe\"></a>";
+							echo "<a href=\"archive.php?pictureId=3\" class=\"banana\" title=\"banana\"></a>";
 ?>
 							</div>
 					</div>
