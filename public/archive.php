@@ -48,8 +48,6 @@
 			</div>
 		</section>
 		<section class="animation">
-			<div class="story">
-				<h2>Story</h2>
 <?php
 				// Database credentials
 				$servername = "us-cdbr-east-05.cleardb.net";
@@ -67,22 +65,29 @@
 				$id = "";
 				if( isset( $_GET["pictureId"] ) ) {
 					$id = $_GET["pictureId"];
-				}
-				// SQL command
-				$sql = "SELECT * FROM story ";
-				$sql .= "WHERE id=" . $id . "";
-				$result = $conn->query($sql);
-				if ($result->num_rows > 0) {
-					// output data of each row
-					while($row = $result->fetch_assoc()) {
-						echo "Title: " . $row["title"]. "<br>" . $row["article"];
+
+					// SQL command
+					$sql = "SELECT * FROM story ";
+					$sql .= "WHERE id=" . $id . "";
+					$result = $conn->query($sql);
+					if ($result->num_rows > 0) {
+						// output data of each row
+?>
+						<div class="story">
+<?php
+							while($row = $result->fetch_assoc()) {
+								echo "Title: " . $row["title"]. "<br>" . $row["article"];
+							}
+?>
+						</div>
+<?php
 					}
-				}
+				} 
+				
 				// Close connection
 				$conn->close();
 ?>
 				
-			</div>
 		</section>
 
 		<footer>
