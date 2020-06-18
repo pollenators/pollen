@@ -91,17 +91,17 @@
 <?php 						
 											echo( $row["email"] );
 ?>
-										</span></div
-										<span class="submit">Article Link:
+										</span></div>
+										<div class="items"><span class="submit">Article Link:
 <?php
 											echo( $row["source"] );
 ?>
-										</span>
-										<span class="submit">Article Description:
+										</span></div> 
+										<div class="items"><span class="submit">Article Description:
 <?php
 											echo( $row["description"]);
 ?>	
-										</span>		
+										</span></div>
 									<?php
 		
 								}
