@@ -32,11 +32,10 @@
 				</nav>
 			</div>
 		</header>
-
+		<h2>Pick Your Poison</h2>
 		<section class="animation">
 			<div class="wrapper">
 				<div class="wrapper items">
-						<h2>Pick Your Poison</h2>
 						<div class="items">
 <?php
 						echo "<a href=\"archive.php?pictureId=1\" class=\"arum\"></a>";
