@@ -36,7 +36,7 @@
 		<section class="animation">
 			<div class="story">
 				<div id="page-wrap"></div>
-		
+					<h2>Challenge Grade</h2>
 <?php    
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
@@ -47,20 +47,14 @@
             if ($answer1 == "A") { $totalCorrect++; }
             if ($answer2 == "C") { $totalCorrect++; }
             if ($answer3 == "B") { $totalCorrect++; }
-            if ($answer4 == "A") { $totalCorrect++; }
-            echo "<div id='results'>$totalCorrect / 4 correct</div>";
+			if ($answer4 == "A") { $totalCorrect++; }
+			
+			if ($totalCorrect >= 3) {
+				echo "<p>Great job!  You got $totalCorrect / 4 correct.</p>";
+			}
 
 			if ($totalCorrect < 3) {
-				echo "<p>Great effort!  Visit the resources again and come back to ace the challenge!</p>";
-
-				$link1 = 'https://sciencing.com/forensic-botany-14631.html';
-				$link2 = 'https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany';
-				$link3 = 'https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/';
-				$link4 = 'https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations';
-				echo "<a href='$link1'>What Is Forensic Botany?</a>";
-				echo "<a href='$link2'>Forensic Botany</a>";
-				echo "<a href='$link3'>Fighting Crime, With Pollen</a>";
-				echo "<a href='$link4'>Independent Labs</a>";
+				echo "<p>Great effort!  You got $totalCorrect / 4 correct.  Re-visit the resources and come back to ace the challenge!</p>";
 			}
 ?>
 

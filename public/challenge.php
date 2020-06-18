@@ -35,15 +35,14 @@
 		
 		<section class="animation">
 			<div class="story">
-				<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of the resources!</p>
-				<br>
-				<br>
-				<a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a>
-				<a href="https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany">Forensic Botany</a>
-				<a href="https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/">Fighting Crime, With Pollen</a>
-				<a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a>
-				<br>
-				<br>
+				<h2>Take the Challenge</h2>
+				<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of them.</p>
+				<ul class="resources">
+					<li><a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a></li>
+					<li><a href="https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany">Forensic Botany</a></li>
+					<li><a href="https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/">Fighting Crime, With Pollen</a></li>
+					<li><a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a></li>
+				</ul>
 				<div id="page-wrap">
 					<form action="grade.php" method="post" id="quiz">
 						<ol>
@@ -99,12 +98,12 @@
 									<label for="question-4-answers-A">pollens</label>
 								</div>
 								<div>
-									<input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-									<label for="question-4-answers-C">tree branches</label>
+									<input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+									<label for="question-4-answers-B">tree branches</label>
 								</div>
 								<div>
-									<input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-									<label for="question-4-answers-D">seeds</label>
+									<input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+									<label for="question-4-answers-C">seeds</label>
 								</div>
 							</li>
 						</ol>
