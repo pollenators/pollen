@@ -14,22 +14,7 @@
 		<script src="/views/animations.js"></script>
 	</head>
 	<body>
-		<header>
-			<div class="container">
-				<nav class="navbar sticky-top navbar-light" style="background-color: #1b4332;">
-					<div class="container-fluid">
-					<div class="collapse navbar-collapse" id="myNavbar" >
-						<ul class="nav navbar-nav">
-						<li><a href="/public/home.php" class="text-light">HOME</a></li>
-						<li><a href="/public/about.html"  class="text-light">ABOUT</a></li>
-						<li><a href="/public/challenge.php" class="text-light">CHALLENGE</a></li>
-						</ul>
 
-					</div>
-					</div>
-				</nav>
-			</div>
-		</header>
 
 		<section class="animation">
 			<div class="wrapper">
