@@ -35,15 +35,18 @@
 		
 		<section class="animation">
 			<div class="story">
+				<div class="wrapper">
 				<h2>Take the Challenge</h2>
 				<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of them.</p>
-				<ul class="resources">
-					<li><a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a></li>
-					<li><a href="https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany">Forensic Botany</a></li>
-					<li><a href="https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/">Fighting Crime, With Pollen</a></li>
-					<li><a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a></li>
-				</ul>
-				<div id="page-wrap">
+				<div class="items">
+					<ul class="resources">
+						<li><a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a></li>
+						<li><a href="https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany">Forensic Botany</a></li>
+						<li><a href="https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/">Fighting Crime, With Pollen</a></li>
+						<li><a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a></li>
+					</ul>
+				</div>
+				<div class="items">
 					<form action="grade.php" method="post" id="quiz">
 						<ol>
 							<li>
@@ -110,6 +113,7 @@
 						<input type="submit" value="Submit" />
 					</form>
 				</div>
+			</div>
 			</div>
 		</section>
 
