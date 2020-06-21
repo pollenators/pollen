@@ -36,17 +36,13 @@ Visit [Pollen](https://pollenators.herokuapp.com/) and follow the instructions b
 
 ![PollenArchive](https://i.imgur.com/gzmRTsP.gif)
 
-3. A secondary feature is where a user could submit an article detailing a criminal case solved using forensic botany.  
+3. A secondary feature is where a user could submit an article detailing a criminal case solved using forensic botany.  The user would fill out the form with their email address, link to article and a short description of the case.  
 
-<video width="320" height="240" controls>
-    <source src="/public/videos/PollenVideoSubmit.mp4" type=video/mp4>
-</video>
+![PollenSubmit](https://i.imgur.com/svB5t7N.gif)
 
 4. A fun feature is where a user is encouraged to visit a list of provided resources and take a multiple-choice challenge.  
 
-<video width="320" height="240" controls>
-    <source src="./public/videos/PollenVideoChallenge.mp4" type=video/mp4>
-</video>
+![PollenChallenge](https://i.imgur.com/ul4B9de.gif)
 
 ## Creators
 Flavio Vilchez Espinoza: [flavio.vilchezespinoza@holbertonschool.com](mailto:flavio.vilchezespinoza@holbertonschool.com), [LinkedIn](https://www.linkedin.com/in/fvesp18) and [Github](https://github.com/fvesp18)  
