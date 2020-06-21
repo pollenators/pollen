@@ -47,18 +47,18 @@ Visit [Pollen](https://pollenators.herokuapp.com/) and follow the instructions b
 ![PollenChallenge](https://i.imgur.com/ul4B9de.gif)
 
 ## Creators
-Flavio Vilchez Espinoza: [flavio.vilchezespinoza@holbertonschool.com](mailto:flavio.vilchezespinoza@holbertonschool.com), [LinkedIn](https://www.linkedin.com/in/fvesp18) and [Github](https://github.com/fvesp18)  
-Jennifer Tang: [jennifer.tang@holbertonschool.com](mailto:jennifer.tang@holbertonschool.com), [LinkedIn](https://www.linkedin.com/in/jennifer-tang-nyc) and [Github](https://github.com/jenntang1)  
+Flavio Vilchez Espinoza: [flavio.vilchezespinoza@holbertonschool.com](mailto:flavio.vilchezespinoza@holbertonschool.com) and [Github](https://github.com/fvesp18)  
+Jennifer Tang: [jennifer.tang@holbertonschool.com](mailto:jennifer.tang@holbertonschool.com) and [Github](https://github.com/jenntang1)  
 Pollen: [pollen.forensicbotany@gmail.com](mailto:pollen.forensicbotany@gmail.com) and [Github](https://github.com/pollenators/pollen)  
 
 ## Contributing
-Please feel free to fork this repository and further enhance this application.  The following are some guidelines to adhere by:
+Please feel free to fork this repository and enhance this application.  The following are some guidelines to adhere by:
 
 * Keep README updated  
 * Keep color and font style consistent  
-* New categories, or improvements to the existing categorization are welcome  
-* Keep descriptions short and simple  
-* Check your spelling and grammar  
+* Keep descriptions short and simple
+* New categories or improvements are welcome    
+* Check spelling and grammar  
 
 ## Related Projects
 None

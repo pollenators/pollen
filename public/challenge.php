@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	<!-- Set dependencies -->
 	<head>
 		<title>pollen</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,31 +14,34 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<script src="animations.js"></script>
 	</head>
+	<!-- Set body to hold navigation bar and challenge feature -->
 	<body>
+		<!-- Set navigation bar -->
 		<header>
 			<div class="container">
 				<nav class="navbar sticky-top navbar-light" style="background-color: #1b4332;">
 					<div class="container-fluid">
-					<div class="collapse navbar-collapse" id="myNavbar" >
-						<ul class="nav navbar-nav">
-						<li><a href="home.html" class="text-light">HOME</a></li>
-						<li><a href="about.html" class="text-light">ABOUT</a></li>
-						<li><a href="archive.php" class="text-light">ARCHIVE</a></li>
-						<li><a href="submit.php" class="text-light">SUBMISSIONS</a></li>
-						<li><a href="challenge.php" class="text-light">CHALLENGE</a></li>
-						</ul>
-
-					</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li><a href="home.html" class="text-light">HOME</a></li>
+								<li><a href="about.html" class="text-light">ABOUT</a></li>
+								<li><a href="archive.php" class="text-light">ARCHIVE</a></li>
+								<li><a href="submit.php" class="text-light">SUBMISSIONS</a></li>
+								<li><a href="challenge.php" class="text-light">CHALLENGE</a></li>
+							</ul>
+						</div>
 					</div>
 				</nav>
 			</div>
 		</header>
-		
+		<!-- Set challenge -->
 		<section class="animation">
 			<div class="story">
 				<div class="wrapper">
-				<h2>Take the Challenge</h2>
-				<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of them.</p>
+					<h2>Take the Challenge</h2>
+						<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of them.</p>
+				</div>
+				<!-- Provide resource links -->
 				<div class="items">
 					<ul class="resources">
 						<li><a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a></li>
@@ -46,6 +50,7 @@
 						<li><a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a></li>
 					</ul>
 				</div>
+				<!-- Set challenge questions -->
 				<div class="items">
 					<form action="grade.php" method="post" id="quiz">
 						<ol>
@@ -114,8 +119,6 @@
 					</form>
 				</div>
 			</div>
-			</div>
 		</section>
-
-		</body>
+	</body>
 </html>

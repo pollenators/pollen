@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	<!-- Set dependencies -->
 	<head>
 		<title>pollen</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,32 +14,33 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<script src="animations.js"></script>
 	</head>
+	<!-- Set body to hold navigation bar and submissions feature -->
 	<body>
+		<!-- Set navigation bar -->
 		<header>
 			<div class="container">
 				<nav class="navbar sticky-top navbar-light" style="background-color: #1b4332;">
 					<div class="container-fluid">
-					<div class="collapse navbar-collapse" id="myNavbar" >
-						<ul class="nav navbar-nav">
-						<li><a href="home.html" class="text-light">HOME</a></li>
-						<li><a href="about.html" class="text-light">ABOUT</a></li>
-						<li><a href="archive.php" class="text-light">ARCHIVE</a></li>
-						<li><a href="submit.php" class="text-light">SUBMISSIONS</a></li>
-						<li><a href="challenge.php" class="text-light">CHALLENGE</a></li>
-						</ul>
-
-					</div>
+						<div class="collapse navbar-collapse" id="myNavbar" >
+							<ul class="nav navbar-nav">
+								<li><a href="home.html" class="text-light">HOME</a></li>
+								<li><a href="about.html" class="text-light">ABOUT</a></li>
+								<li><a href="archive.php" class="text-light">ARCHIVE</a></li>
+								<li><a href="submit.php" class="text-light">SUBMISSIONS</a></li>
+								<li><a href="challenge.php" class="text-light">CHALLENGE</a></li>
+							</ul>
+						</div>
 					</div>
 				</nav>
 			</div>
 		</header>
-
+		<!-- Set submissions feature -->
 		<section class="animation">
 			<div class="main">
 				<div class="wrapper">
 					<div class="item">
 						<h2>Submit a Story</h2>
-
+						<!-- Set form to collect story from user -->
 						<form action="submit.php" method="post" id="userStoryForm">
 							<div class="userStoryFormElement">
 								<label for="userEmail">Email</label><br />
@@ -54,63 +56,55 @@
 							</div>
 							<input type="submit" value="Pollenate"/>
 						</form>
-
 <?php
-
+						// Database credentials
 						$servername = "us-cdbr-east-05.cleardb.net";
 						$username = "b8f493d5441bba";
 						$password = "d2ebee76";
 						$dbname = "heroku_7f19938a1668d8e";
-
 						// Create connection
 						$conn = new mysqli($servername, $username, $password, $dbname);
 						// Check connection
-						if ($conn->connect_error) {
-							die("Connection failed: " . $conn->connect_error);
+						if( $conn->connect_error ) {
+							die( "Connection failed: " . $conn->connect_error );
 						} 
-
+						// If post method is found, set variables for user email, article link and article description
 						if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 							$userEmail = $_POST["userEmail"];
 							$userSource = $_POST["userSource"];
 							$userDescription = $_POST["userDescription"];
-
-							// If something was submitted, store into db
+							// Store into database
 							$sql = "INSERT INTO userStories (email, source, description) ";
 							$sql .= "VALUES ('$userEmail', '$userSource', '$userDescription')";
 
-							$result = $conn->query($sql);
-
-							// Select everthing that was submitted
+							// $result = $conn->query($sql);
+							// Run sql command to sort and select only the most recent submission
 							$sql = "SELECT * FROM userStories ORDER BY id DESC LIMIT 1";
-
+							// Query database
 							$result = $conn->query($sql);
-
 							// Output submission
-							if ($result->num_rows > 0) {
-								while($row = $result->fetch_assoc()) {
-	
+							if ( $result->num_rows > 0 )  {
+								while( $row = $result->fetch_assoc() ) {
 ?>
 									<span class="submit">Email: 
 <?php 						
-											echo( $row["email"] );
+										echo( $row["email"] );
 ?>
-										</span>
-										<span class="submit">Article Link:
+									</span>
+									<span class="submit">Article Link:
 <?php
-											echo( $row["source"] );
+										echo( $row["source"] );
 ?>
-										</span>
-										<span class="submit">Article Description:
+									</span>
+									<span class="submit">Article Description:
 <?php
-											echo( $row["description"]);
+										echo( $row["description"]);
 ?>	
-										</span>
-									<?php
-		
+									</span>
+<?php
 								}
 							}
 						}
-
 						// Close connection
 						$conn->close();
 ?>
@@ -118,7 +112,5 @@
 				</div>
 			</div>
 		</section>
-
 	</body>
-
 </html>
