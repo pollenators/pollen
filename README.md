@@ -35,9 +35,7 @@ Visit [Pollen](https://pollenators.herokuapp.com/) and follow the instructions b
 2. The main feature is the archive that pulls up a criminal case that was solved using forensic botany when a user clicks on a related plant image.  
 
 <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="public/png/PollenThumbnailArchive.png">
-        <source src="public/videos/PollenVideoArchive.mp4" type="video/mp4">
-    </video>
+  <iframe src="https://drive.google.com/file/d/1ViI8yfGSIakiScAS7hbKptd3xLZ5hzrn/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 3. A secondary feature is where a user could submit an article detailing a criminal case solved using forensic botany.  
