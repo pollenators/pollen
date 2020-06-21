@@ -35,6 +35,7 @@ Visit [Pollen](https://pollenators.herokuapp.com/) and follow the instructions b
 2. The main feature is the archive that pulls up a criminal case that was solved using forensic botany when a user clicks on a related plant image.  
 
 <video width="320" height="240" controls>
+    <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
     <source src="public/videos/PollenVideoArchive.mp4" type=video/mp4>
 </video>
 
@@ -53,7 +54,7 @@ Visit [Pollen](https://pollenators.herokuapp.com/) and follow the instructions b
 ## Creators
 Flavio Vilchez Espinoza: [flavio.vilchezespinoza@holbertonschool.com](mailto:flavio.vilchezespinoza@holbertonschool.com), [LinkedIn](https://www.linkedin.com/in/fvesp18) and [Github](https://github.com/fvesp18)  
 Jennifer Tang: [jennifer.tang@holbertonschool.com](mailto:jennifer.tang@holbertonschool.com), [LinkedIn](https://www.linkedin.com/in/jennifer-tang-nyc) and [Github](https://github.com/jenntang1)  
-Pollen: [pollen.forensicbotany@gmail.com](mailto:pollen.forensicbotany@gmail.com) and [LinkedIn](https://github.com/pollenators/pollen)  
+Pollen: [pollen.forensicbotany@gmail.com](mailto:pollen.forensicbotany@gmail.com) and [Github](https://github.com/pollenators/pollen)  
 
 ## Related Projects
 None
