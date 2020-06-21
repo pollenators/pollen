@@ -1,7 +1,7 @@
 ![PollenLogo](https://i.imgur.com/K4BblfA.png)
 
 # Pollen
-Flavio Vilcheze Espinoza and Jennifer Tang are the creaters of the Pollen web application.  One day Flavio shared a book called The Nature of Life and Death by Patricia Wiltshire with Jennifer.  The book follows the professional career of Patricia Wiltshire as a forensic ecologist/botanist.  She studies and investigates plant and plant parts found at crime scenes.  The conversations Flavio and Jennifer had about the book spiraled into a shared interest in forensic botany.  After hours combing the Internet for resources on forensic botany and criminal cases solved by it to no avail, Flavio and Jennifer decided to build their own resource.
+Flavio Vilcheze Espinoza and Jennifer Tang are the creators of the Pollen web application.  One day Flavio shared a book called The Nature of Life and Death by Patricia Wiltshire with Jennifer.  The book follows the professional career of Patricia Wiltshire as a forensic ecologist/botanist.  She studies and investigates plant and plant parts found at crime scenes.  The conversations Flavio and Jennifer had about the book spiraled into a shared interest in forensic botany.  After hours combing the Internet for resources on forensic botany and criminal cases solved by it to no avail, Flavio and Jennifer decided to build their own resource.
 
 The following are articles written by Flavio and Jennifer detailing their journey on developing Pollen:  
 Flavio Vilchez Espinoza, [Title]() and [LinkedIn](https://www.linkedin.com/in/fvesp18)  
