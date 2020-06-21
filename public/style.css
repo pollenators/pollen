@@ -1,12 +1,14 @@
+/* Style for all webpages */
 * {
 	margin: 0px;
 	padding: 0px;
 	font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
-
+/* Background color for all webpages */
 body {
 	background-color: #1b4332;
 }
+/* Style for sliding animation */
 @keyframes slideInFromBot {
 	0% {
 		transform: translateY(100%);
@@ -15,13 +17,16 @@ body {
 		transform: translateY(0%);
 	}
 }
+/* Font color for all webpages */
 h2, .h2, .phrase, .text-light {
 	color:#FFFFFF;
 }
+/* Size for all images */
 .images {
 	width: 70px;
 	height: 70px;
 }
+/* Style for navigation bar */
 header {
 	height: 10vh;
 	min-height: 100%;
@@ -31,15 +36,7 @@ header {
 	align-items: center;
 	overflow-y: visible;
 }
-footer, .footer-buttons {
-	height: 100%;
-	background-color: #1b4332;
-	display: flex;
-	justify-self: center;
-	justify-content: center;
-	align-content: center;
-	overflow: visible;
-}
+/* Style for all header 1 */
 .h1, h1, .logo {
 	font-size: 100pt;
 	color: #FFFFFF;
@@ -48,6 +45,7 @@ footer, .footer-buttons {
 	justify-items: center;
 	flex-grow: 1;
 }
+/* Style for all sections */
 section {
 	background-color: #1b4332;
 	display: flex;
@@ -57,21 +55,23 @@ section {
 	flex-wrap: wrap;
 	height: 100%;
 }
+/* Size for navigation bar */
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
 	vertical-align: center;
 }
-  
+/* Alignment for navigation bar */
 .navbar .navbar-collapse {
 	text-align: center;
 }
-
+/* Style adjustment for different devices */
 @media (min-width: 1200px) {
     .container{
         max-width: 970px;
     }
 }
+/* Style for body or everything under the navigation bar */
 .wrapper {
 	display: flex;
 	justify-self: center;
@@ -81,12 +81,14 @@ section {
 	flex-direction: column;
 	margin: 1vh;
 }
+/* Style for logo on landing page */
 .logo {
 	display: flex;
 	justify-self: flex-end;
 	justify-items: center;
 	flex-grow: 1;
 }
+/* Style for svgs */
 .items {
 	background-color: rgba(255, 255, 255, 0.3);
 	display: flex;
@@ -96,6 +98,7 @@ section {
 	padding: 2vh;
 	width: max-content;
 }
+/* Style for About, Video and Features on landing page */
 .child {
 	flex: 0 32%;
 	margin-bottom: 2%; /* (100-32*3)/2 */
@@ -105,19 +108,20 @@ section {
 	justify-content: center; 
 	flex-direction: column; 
 }
-
+/* */
 .flex-horizontal-center {	
 	align-items: center; 
 	justify-content: center; 
 	flex-direction: column;
 } 
-
+/* Style for animation on all webpages */
 .animation {
 	display: flex;
 	justify-content: center;
 	align-self: center;
 	align-content: flex-start;
 }
+/* */
 .intro, .main, .story {
 	background-color: #FFFFFF;
 	display: flex;
@@ -132,6 +136,7 @@ section {
 	overflow: scroll;
 	animation: 2s ease-out .05s 1 slideInFromBot;
 }
+/* */
 .background {
 	display: flex;
 	height: 100vh;
@@ -145,53 +150,35 @@ section {
 	overflow: scroll;
 	animation: 2s ease-out .05s 1 slideInFromBot;
 }
+/* */
 .animation h2 {
 	width: 100%; 
 	text-align:center;
 }
+/* Style for svgs used in Archive */
 .svgs {
 	display: flex;
 	justify-content: center;
 	align-self: center;
 	align-content: flex-start;
 }
+/* */
 .text {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 2;
 }
-.arum {
-	display: flexbox;
-	background-image: url('svg/arum.svg');
-	height: 100px;
-	width: 100px;
-	background-repeat: no-repeat;
-	font-size: 75px;
-	text-indent: -9999px;
-	display: block;
-
+/* Style for footer on landing page */
+footer, .footer-buttons {
+	height: 100%;
+	background-color: #1b4332;
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	align-content: center;
+	overflow: visible;
 }
-
-.aloe {
-	display: flexbox;
-	background-image: url('svg/aloe.svg');
-	height: 100px;
-	width: 100px;
-	background-repeat: no-repeat;
-	font-size: 75px;
-	display: block;
-
-}
-.banana {
-	display: flexbox;
-	background-image: url('svg/banana_leaf.svg');
-	height: 100px;
-	width: 100px;
-	background-repeat: no-repeat;
-	font-size: 75px;
-	display: block;
-
-}
+/* Style for social media buttons on landing page */
 .footer-buttons a{
 	display: flex;
 	text-decoration: none;
@@ -204,8 +191,8 @@ section {
 	position: relative;
 	z-index: 3;
 	margin: 0 5px;
-  }
-  
+}
+/* Style for social media buttons before hover */  
 .footer-buttons a::before{
 	content: "";
 	position: absolute;
@@ -216,32 +203,65 @@ section {
 	z-index: 3;
 	transition: 0.3s ease-in;
 }
-  
+/* Style for social media buttons' radius during hover */  
 .footer-buttons a:hover::before{
 	transform: scale(0);
 	z-index: 3;
 }
-  
+/* Style for social media buttons' logo during hover */  
 .footer-buttons a i{
 	z-index: 3;
 	transition: 0.3s ease-in;
 }
-  
+/* Style for social media buttons after hover */  
 .footer-buttons a:hover i{
 	z-index: 3;
 	background: linear-gradient(45deg,#22a6b3,#74A867);
 	transform: scale(2.2);
 }
+/* Style for first svg used in Archive */
+.arum {
+	display: flexbox;
+	background-image: url('svg/arum.svg');
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	font-size: 75px;
+	text-indent: -9999px;
+	display: block;
 
+}
+/* Style for second svg used in Archive */
+.aloe {
+	display: flexbox;
+	background-image: url('svg/aloe.svg');
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	font-size: 75px;
+	display: block;
+
+}
+/* Style for third svg used in Archive */
+.banana {
+	display: flexbox;
+	background-image: url('svg/banana_leaf.svg');
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	font-size: 75px;
+	display: block;
+}
+/* Style for Submissions */
 form#userStoryForm {
 	display: block;
 }
-
- .userDescription{
+/* Size of Article Description text area */
+.userDescription{
 	width: 400px;
 	height: 70px;
-  }
-
-  input[type=text]{
-	  width: 400px
-  }
+}
+/* Style for submitted texts */
+input[type=text]{
+	width: 400px
+}

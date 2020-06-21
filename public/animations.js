@@ -1,10 +1,10 @@
+// Upon opening a page on the app, the sliding animation will be executed
 window.onload(function() {
 	$('#fullpage').fullpage({
-		//options here
+		// Set options for scrolling
 		autoScrolling:true,
 		scrollHorizontally: true
 	});
-
-	//methods
+	// Disable scrolling
 	$.fn.fullpage.setAllowScrolling(false);
 });
