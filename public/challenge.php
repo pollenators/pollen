@@ -40,83 +40,83 @@
 				<div class="wrapper">
 					<h2>Take the Challenge</h2>
 					<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of them.</p>
-				</div>
-				<!-- Set resource links -->
-				<div class="items">
-					<ul class="resources">
-						<li><a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a></li>
-						<li><a href="https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany">Forensic Botany</a></li>
-						<li><a href="https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/">Fighting Crime, With Pollen</a></li>
-						<li><a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a></li>
-					</ul>
-				</div>
-				<!-- Set challenge questions -->
-				<div class="items">
-					<form action="grade.php" method="post" id="quiz">
-						<ol>
-							<li>
-								<h5>Where are pollens usually found on a victim?</h5>
-								<div>
-									<input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-									<label for="question-1-answers-A">nasal passages</label>
-								</div>
-								<div>
-									<input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-									<label for="question-1-answers-B">under the shoes</label>
-								</div>
-								<div>
-									<input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-									<label for="question-1-answers-C">ears</label>
-								</div>
-							</li>
-							<li>
-								<h5>What criminal case in 1935 was solved by examining wood grains and knots from a ladder?</h5>
-								<div>
-									<input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-									<label for="question-2-answers-A">Jack the Ripper</label>
-								</div>
-								<div>
-									<input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-									<label for="question-2-answers-B">OJ Simpson</label>
-								</div>
-								<div>
-									<input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-									<label for="question-2-answers-C">Lindbergh baby</label>
-								</div>
-							</li>
-							<li>
-								<h5>What can dried leaves be used for in forensic botany?</h5>
-								<div>
-									<input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-									<label for="question-3-answers-A">foot fungus evaluation</label>
-								</div>
-								<div>
-									<input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-									<label for="question-3-answers-B">DNA evaluation</label>
-								</div>
-								<div>
-									<input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-									<label for="question-3-answers-C">blood test</label>
-								</div>
-							</li>
-							<li>
-								<h5>What can be examined to run a Random Amplified Polymorphic DNA analysis?</h5>
-								<div>
-									<input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-									<label for="question-4-answers-A">pollens</label>
-								</div>
-								<div>
-									<input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-									<label for="question-4-answers-B">tree branches</label>
-								</div>
-								<div>
-									<input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-									<label for="question-4-answers-C">seeds</label>
-								</div>
-							</li>
-						</ol>
-						<input type="submit" value="Pollenate" />
-					</form>
+					<!-- Set resource links -->
+					<div class="items">
+						<ul class="resources">
+							<li><a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a></li>
+							<li><a href="https://www.encyclopedia.com/science/news-wires-white-papers-and-books/forensic-botany">Forensic Botany</a></li>
+							<li><a href="https://www.theatlantic.com/science/archive/2015/11/fighting-crime-with-pollen/416259/">Fighting Crime, With Pollen</a></li>
+							<li><a href="https://deshasil.wixsite.com/independentlabs/single-post/2018/06/01/Cases-where-forensic-botany-has-been-used-in-criminal-investigations">Independent Labs</a></li>
+						</ul>
+					</div>
+					<!-- Set challenge questions -->
+					<div class="items">
+						<form action="grade.php" method="post" id="quiz">
+							<ol>
+								<li>
+									<h5>Where are pollens usually found on a victim?</h5>
+									<div>
+										<input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+										<label for="question-1-answers-A">nasal passages</label>
+									</div>
+									<div>
+										<input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+										<label for="question-1-answers-B">under the shoes</label>
+									</div>
+									<div>
+										<input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+										<label for="question-1-answers-C">ears</label>
+									</div>
+								</li>
+								<li>
+									<h5>What criminal case in 1935 was solved by examining wood grains and knots from a ladder?</h5>
+									<div>
+										<input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+										<label for="question-2-answers-A">Jack the Ripper</label>
+									</div>
+									<div>
+										<input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+										<label for="question-2-answers-B">OJ Simpson</label>
+									</div>
+									<div>
+										<input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+										<label for="question-2-answers-C">Lindbergh baby</label>
+									</div>
+								</li>
+								<li>
+									<h5>What can dried leaves be used for in forensic botany?</h5>
+									<div>
+										<input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+										<label for="question-3-answers-A">foot fungus evaluation</label>
+									</div>
+									<div>
+										<input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+										<label for="question-3-answers-B">DNA evaluation</label>
+									</div>
+									<div>
+										<input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+										<label for="question-3-answers-C">blood test</label>
+									</div>
+								</li>
+								<li>
+									<h5>What can be examined to run a Random Amplified Polymorphic DNA analysis?</h5>
+									<div>
+										<input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+										<label for="question-4-answers-A">pollens</label>
+									</div>
+									<div>
+										<input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+										<label for="question-4-answers-B">tree branches</label>
+									</div>
+									<div>
+										<input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+										<label for="question-4-answers-C">seeds</label>
+									</div>
+								</li>
+							</ol>
+							<input type="submit" value="Pollenate" />
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
