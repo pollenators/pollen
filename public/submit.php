@@ -77,11 +77,11 @@
 							$sql = "INSERT INTO userStories (email, source, description) ";
 							$sql .= "VALUES ('$userEmail', '$userSource', '$userDescription')";
 
-							// $result = $conn->query($sql);
+							$result = $conn->query($sql);
 							// Run sql command to sort and select only the most recent submission
 							$sql = "SELECT * FROM userStories ORDER BY id DESC LIMIT 1";
 							// Query database
-							$result = $conn->query($sql);
+							//$result = $conn->query($sql);
 							// Output submission
 							if ( $result->num_rows > 0 )  {
 								while( $row = $result->fetch_assoc() ) {
