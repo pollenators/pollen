@@ -39,9 +39,9 @@
 			<div class="story">
 				<div class="wrapper">
 					<h2>Take the Challenge</h2>
-						<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of them.</p>
+					<p>If you're interested in learning more about forensic botany, visit the resources below.  Come back to take the challenge that's based-off of them.</p>
 				</div>
-				<!-- Provide resource links -->
+				<!-- Set resource links -->
 				<div class="items">
 					<ul class="resources">
 						<li><a href="https://sciencing.com/forensic-botany-14631.html">What Is Forensic Botany?</a></li>
