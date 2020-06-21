@@ -4,8 +4,10 @@
 Flavio Vilcheze Espinoza and Jennifer Tang are the creaters of the Pollen web application.  One day Flavio shared a book called The Nature of Life and Death by Patricia Wiltshire with Jennifer.  The book follows the professional career of Patricia Wiltshire as a forensic ecologist/botanist.  She studies and investigates plant and plant parts found at crime scenes.  The conversations Flavio and Jennifer had about the book spiraled into a shared interest in forensic botany.  After hours combing the Internet for resources on forensic botany and criminal cases solved by it to no avail, Flavio and Jennifer decided to build their own resource.
 
 The following are articles written by Flavio and Jennifer detailing their journey on developing Pollen:  
-Flavio Vilchez Espinoza, [LinkedIn]()  
-Jennifer Tang, [LinkedIn]()  
+Flavio Vilchez Espinoza, [Title]() and [LinkedIn](https://www.linkedin.com/in/fvesp18)  
+Jennifer Tang, [Developing My First App: Pollen]() and [LinkedIn](https://www.linkedin.com/in/jennifer-tang-nyc)    
+
+Check out [Pollen](https://pollenators.herokuapp.com/)!  
 
 ## Mission
 Pollen is an engaging and educational web application on forensic botany.  Forensic botany is a niche field of forensic science that uses plants or plant parts in investigating criminal cases.  It is not widely known to many, thus, our mission is to educate those who never heard of forensic botany and show its societal impact.  Additionally, we want to create a space for forensic botany enthusiasts to learn and discover cases they weren’t aware of.  
@@ -48,6 +50,15 @@ Visit [Pollen](https://pollenators.herokuapp.com/) and follow the instructions b
 Flavio Vilchez Espinoza: [flavio.vilchezespinoza@holbertonschool.com](mailto:flavio.vilchezespinoza@holbertonschool.com), [LinkedIn](https://www.linkedin.com/in/fvesp18) and [Github](https://github.com/fvesp18)  
 Jennifer Tang: [jennifer.tang@holbertonschool.com](mailto:jennifer.tang@holbertonschool.com), [LinkedIn](https://www.linkedin.com/in/jennifer-tang-nyc) and [Github](https://github.com/jenntang1)  
 Pollen: [pollen.forensicbotany@gmail.com](mailto:pollen.forensicbotany@gmail.com) and [Github](https://github.com/pollenators/pollen)  
+
+## Contributing
+Please feel free to fork this repository and further enhance this application.  The following are some guidelines to adhere by:
+
+* Keep README updated  
+* Keep color and font style consistent  
+* New categories, or improvements to the existing categorization are welcome  
+* Keep descriptions short and simple  
+* Check your spelling and grammar  
 
 ## Related Projects
 None
