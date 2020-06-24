@@ -1,7 +1,3 @@
-// Use Expressjs to connect to Heroku's server
-var express = require('express');
-var app = express();
-
 // Use php-express buildpack to connect to Heroku's server
 var phpExpress = require('php-express')({
   binPath: 'php'
