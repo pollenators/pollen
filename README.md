@@ -1,10 +1,11 @@
 ![PollenLogo](https://i.imgur.com/K4BblfA.png)
 
 # Pollen
-Flavio Vilcheze Espinoza and Jennifer Tang are the creators of the Pollen web application.  One day Flavio shared a book called The Nature of Life and Death by Patricia Wiltshire with Jennifer.  The book follows the professional career of Patricia Wiltshire as a forensic ecologist/botanist.  She studies and investigates plant and plant parts found at crime scenes.  The conversations Flavio and Jennifer had about the book spiraled into a shared interest in forensic botany.  After hours combing the Internet for resources on forensic botany and criminal cases solved by it to no avail, Flavio and Jennifer decided to build their own resource.
+## Introduction
+Hello from Flavio Vilcheze Espinoza and Jennifer Tang!  We are the creators of the web application, Pollen.  The idea to develop Pollen came at a challenging time for the whole world.  It was during the peak of the COVID-19 pandemic in early May 2020, Flavio remotely recommended a book called The Nature of Life and Death by Patricia Wiltshire to Jennifer.  The book follows the professional career of Patricia Wiltshire as a forensic ecologist/botanist.  She studies and investigates plant and plant parts found at crime scenes to solve criminal cases.  The conversations we had about the book spiraled into a shared interest in forensic botany.  After hours combing the Internet for resources on forensic botany and criminal cases solved by it to no avail, we decided to build our own resource.  
 
-The following are articles written by Flavio and Jennifer detailing their journey on developing Pollen:  
-Flavio Vilchez Espinoza, [Title]() and [LinkedIn](https://www.linkedin.com/in/fvesp18)  
+The following are articles written by us detailing our journey on developing Pollen:  
+Flavio Vilchez Espinoza, [Building My First App](https://medium.com/@fvesp18/building-my-first-app-41da598cd2bd?source=friends_link&sk=960216d3ad126555a19b58ad7ba9fe57) and [LinkedIn](https://www.linkedin.com/in/fvesp18)  
 Jennifer Tang, [Developing My First App: Pollen](https://www.linkedin.com/in/jennifer-tang-nyc/detail/recent-activity/) and [LinkedIn](https://www.linkedin.com/in/jennifer-tang-nyc)    
 
 Check out [Pollen](https://pollenators.herokuapp.com/)!  
@@ -13,7 +14,7 @@ Check out [Pollen](https://pollenators.herokuapp.com/)!
 Pollen is an engaging and educational web application on forensic botany.  Forensic botany is a niche field of forensic science that uses plants or plant parts in investigating criminal cases.  It is not widely known to many, thus, our mission is to educate those who never heard of forensic botany and show its societal impact.  Additionally, we want to create a space for forensic botany enthusiasts to learn and discover cases they weren’t aware of.  
 
 ## Target Audience
-The following are the three types of user we want to target in user story format.  
+The following are the three types of user we want to target in user story format:  
 1. As a forensic botany enthusiast, I want access to a free and centralized resource so I can read, learn and study more criminal cases solved by investigating plant and plant parts found at crime scenes.  
 2. As a true crime enthusiast, I want access to a free resource so I can read and learn more quirky criminal cases.  
 3. As a curious individual who loves to read, I want access to a free resource so I can read and learn about.  
@@ -24,13 +25,16 @@ The following are the three types of user we want to target in user story format
 ## Architecture
 ![PollenWebStack](https://i.imgur.com/pO3en6s.png)
 
+## Challenges
+Pollen was developed at no cost by using open-source and free trial technologies.  Some of these technologies such as Heroku and PHP were new to us.  Thus, technical challenges were unavoidable but we persevere through them together.  The first challenge was the steep learning curve in connecting to Heroku's free PostgreSQL database.  After a week long attempt, we decided to switch to a MySQL database and use PHP to connect and query data.  Now, we have PHP files in addtion to HTML files we already wrote.  We already deployed the HTML files using Heroku's Node JS build-pack but with PHP files we had to switch to Heroku's PHP build-pack.  Thus, we had to re-write all our Heroku deployment files from Node JS to PHP-Express JS.  The second challenge was finding a free tool to connect our local MySQL database to Heroku.  We ended up learning and using CleanDB to build the connection.  
+
 ## Installation
 Pollen is optimized on Google Chrome version 83.  If you don't already have it, please download it [here](https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMI7pryt_qR6gIVF8DICh1g2QBcEAAYASABEgLwxfD_BwE&gclsrc=aw.ds).    
 
 ## Usage
 Visit [Pollen](https://pollenators.herokuapp.com/) and follow the instructions below to begin using.  
 
-1. Users will be introducted to Pollen through its landing page.  The landing page has a wealth of information about the web application.  It introduces the creators and key features.  
+1. Users will be introducted to Pollen through its landing page.  The landing page has a wealth of information about the web application.  It introduces the creators and features.  
 
 ![PollenLandingPage](https://i.imgur.com/x0k6H5A.png)
 
@@ -52,7 +56,7 @@ Jennifer Tang: [jennifer.tang@holbertonschool.com](mailto:jennifer.tang@holberto
 Pollen: [pollen.forensicbotany@gmail.com](mailto:pollen.forensicbotany@gmail.com) and [Github](https://github.com/pollenators/pollen)  
 
 ## Contributing
-Please feel free to fork this repository and enhance this application.  The following are some guidelines to adhere by:
+Please feel free to fork this repository and enhance Pollen.  The following are some guidelines to adhere by:
 
 * Keep README updated  
 * Keep color and font style consistent  
