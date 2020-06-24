@@ -5,7 +5,7 @@ Flavio Vilcheze Espinoza and Jennifer Tang are the creators of the Pollen web ap
 
 The following are articles written by Flavio and Jennifer detailing their journey on developing Pollen:  
 Flavio Vilchez Espinoza, [Title]() and [LinkedIn](https://www.linkedin.com/in/fvesp18)  
-Jennifer Tang, [Developing My First App: Pollen]() and [LinkedIn](https://www.linkedin.com/in/jennifer-tang-nyc)    
+Jennifer Tang, [Developing My First App: Pollen](https://www.linkedin.com/in/jennifer-tang-nyc/detail/recent-activity/) and [LinkedIn](https://www.linkedin.com/in/jennifer-tang-nyc)    
 
 Check out [Pollen](https://pollenators.herokuapp.com/)!  
 
