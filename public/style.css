@@ -121,7 +121,7 @@ section {
 	align-self: center;
 	align-content: flex-start;
 }
-/* */
+/* Basic styling for sections tags */
 .intro, .main, .story {
 	background-color: #FFFFFF;
 	display: flex;
@@ -136,7 +136,7 @@ section {
 	overflow: scroll;
 	animation: 2s ease-out .05s 1 slideInFromBot;
 }
-/* */
+/* Styling for background class */
 .background {
 	display: flex;
 	height: 100vh;
@@ -150,7 +150,7 @@ section {
 	overflow: scroll;
 	animation: 2s ease-out .05s 1 slideInFromBot;
 }
-/* */
+/* Header styling for animation divs */
 .animation h2 {
 	width: 100%; 
 	text-align:center;
@@ -162,7 +162,7 @@ section {
 	align-self: center;
 	align-content: flex-start;
 }
-/* */
+/* Text alignment in flex boxes*/
 .text {
 	display: flex;
 	flex-direction: column;
