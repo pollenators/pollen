@@ -20,10 +20,12 @@ The following are the three types of user we want to target in user story format
 3. As a curious individual who loves to read, I want access to a free resource so I can read and learn about.  
 
 ## Technology
+The following is a diagram that shows the technologies we used for the front-end, back-end and deployment.  We used Discord and our phones to communicate with each other while working remotely.  We managed our tasks on a Trello board.  
 ![PollenTech](https://i.imgur.com/VNozQOY.png)
 
 ## Architecture
-![PollenWebStack](https://i.imgur.com/pO3en6s.png)
+The following is a diagram that shows the architecture of Pollen from user-end to the server-end.  
+![PollenArcht](https://i.imgur.com/nedafOo.png)
 
 ## Challenges
 Pollen was developed at no cost by using open-source and free trial technologies.  Some of these technologies such as Heroku and PHP were new to us.  Thus, technical challenges were unavoidable but we persevere through them together.  The first challenge was the steep learning curve in connecting to Heroku's free PostgreSQL database.  After a week long attempt, we decided to switch to a MySQL database and use PHP to connect and query data.  Now, we have PHP files in addtion to HTML files we already wrote.  We already deployed the HTML files using Heroku's Node JS build-pack but with PHP files we had to switch to Heroku's PHP build-pack.  Thus, we had to re-write all our Heroku deployment files from Node JS to PHP-Express JS.  The second challenge was finding a free tool to connect our local MySQL database to Heroku.  We ended up learning and using CleanDB to build the connection.  
