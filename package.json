@@ -4,7 +4,7 @@
   "description": "pollen deployed with heroku",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "php-express": "0.0.3"
   },
   "devDependencies": {},
